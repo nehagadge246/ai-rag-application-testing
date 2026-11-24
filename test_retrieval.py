@@ -46,7 +46,7 @@ def retrieve_documents(question, documents, top_k=2):
 retrieved_context = retrieve_documents(
     question,
     documents,
-    top_k=2
+    top_k=1
 )
 
 # Expected relevant information
@@ -70,3 +70,21 @@ assert any(
 ), "FAIL: Relevant annual leave information was not retrieved!"
 
 print("\nPASS: Relevant information retrieved successfully!")
+
+# Calculate retrieval precision
+
+relevant_documents = [
+    document for document in retrieved_context
+    if "annual leave" in document.lower()
+]
+
+precision = (
+    len(relevant_documents) / len(retrieved_context)
+    if retrieved_context else 0
+)
+
+print(f"\nRetrieval Precision: {precision:.2f}")
+
+assert precision == 1.0, "FAIL: Retrieval precision is below 100%!"
+
+print("PASS: Retrieval precision is 100%!")
