@@ -1,6 +1,6 @@
 
 # Lesson 18: RAG End-to-End Testing
-# Actual answer generation using Ollama + DeepEval evaluation
+# Positive and Negative Testing using Ollama + DeepEval
 
 import ollama
 
@@ -50,18 +50,10 @@ response = ollama.generate(
     prompt=prompt
 )
 
-actual_output = response["response"].strip()
+positive_output = response["response"].strip()
 
 
-# 5. Create DeepEval test case
-test_case = LLMTestCase(
-    input=question,
-    actual_output=actual_output,
-    retrieval_context=retrieved_context
-)
-
-
-# 6. Configure Ollama evaluation model
+# 5. Configure local Ollama evaluation model
 eval_model = OllamaModel(
     model="qwen2.5-coder:3b",
     base_url="http://localhost:11434",
@@ -69,67 +61,109 @@ eval_model = OllamaModel(
 )
 
 
-# 7. Configure Answer Relevancy metric
-answer_relevancy_metric = AnswerRelevancyMetric(
-    threshold=0.7,
-    model=eval_model
-)
+# 6. Evaluation function
+def run_evaluation(test_name, actual_output):
+
+    test_case = LLMTestCase(
+        input=question,
+        actual_output=actual_output,
+        retrieval_context=retrieved_context
+    )
+
+    answer_relevancy_metric = AnswerRelevancyMetric(
+        threshold=0.7,
+        model=eval_model
+    )
+
+    faithfulness_metric = FaithfulnessMetric(
+        threshold=0.7,
+        model=eval_model
+    )
+
+    print(f"\n===== {test_name} =====")
+
+    print("\nGenerated Answer:")
+    print(actual_output)
+
+    # Answer Relevancy
+    print("\n--- Answer Relevancy ---")
+
+    answer_relevancy_metric.measure(test_case)
+
+    relevancy_score = answer_relevancy_metric.score
+
+    print("Score:", relevancy_score)
+
+    # Faithfulness
+    print("\n--- Faithfulness ---")
+
+    faithfulness_metric.measure(test_case)
+
+    faithfulness_score = faithfulness_metric.score
+
+    print("Score:", faithfulness_score)
+
+    return relevancy_score, faithfulness_score
 
 
-# 8. Configure Faithfulness metric
-faithfulness_metric = FaithfulnessMetric(
-    threshold=0.7,
-    model=eval_model
-)
-
-
-# 9. Display RAG workflow results
+# 7. Display retrieved context
 print("\n===== RAG END-TO-END TEST =====")
 
 print("\nUser Question:")
 print(question)
 
 print("\nRetrieved Context:")
+
 for index, doc in enumerate(retrieved_context, start=1):
     print(f"{index}. {doc}")
 
-print("\nGenerated Answer:")
-print(actual_output)
 
-
-# 10. Evaluate Answer Relevancy
-print("\n===== ANSWER RELEVANCY =====")
-
-answer_relevancy_metric.measure(test_case)
-
-print("Score:", answer_relevancy_metric.score)
-
-if answer_relevancy_metric.score >= 0.7:
-    print("PASS: Answer is relevant.")
-else:
-    print("FAIL: Answer is not sufficiently relevant.")
-
-
-# 11. Evaluate Faithfulness
-print("\n===== FAITHFULNESS =====")
-
-faithfulness_metric.measure(test_case)
-
-print("Score:", faithfulness_metric.score)
-
-if faithfulness_metric.score >= 0.7:
-    print("PASS: Answer is supported by retrieved context.")
-else:
-    print("FAIL: Answer contains unsupported information.")
-
-
-# 12. Final evaluation summary
-print("\n===== FINAL RAG TEST SUMMARY =====")
+# 8. Positive test scenario
+positive_relevancy, positive_faithfulness = run_evaluation(
+    "POSITIVE TEST",
+    positive_output
+)
 
 if (
-    answer_relevancy_metric.score >= 0.7
-    and faithfulness_metric.score >= 0.7
+    positive_relevancy >= 0.7
+    and positive_faithfulness >= 0.7
 ):
-    print("OVERALL RESULT: PASS")
+    print("\nPASS: Positive test passed.")
+    positive_test_passed = True
 else:
-    print("OVERALL RESULT: FAIL")
+    print("\nFAIL: Positive test failed.")
+    positive_test_passed = False
+
+
+# 9. Negative test scenario
+# Deliberately incorrect answer
+negative_output = (
+    "Employees receive 30 annual leave days per year."
+)
+
+negative_relevancy, negative_faithfulness = run_evaluation(
+    "NEGATIVE TEST",
+    negative_output
+)
+
+# The answer is relevant to the question,
+# but its information contradicts the retrieved context.
+
+if negative_faithfulness < 0.7:
+    print("\nPASS: Negative test detected unsupported information.")
+    negative_test_passed = True
+else:
+    print("\nFAIL: Negative test did not detect unsupported information.")
+    negative_test_passed = False
+
+
+# 10. Final evaluation summary
+print("\n===== FINAL RAG TEST SUMMARY =====")
+
+print("Positive Test:", "PASS" if positive_test_passed else "FAIL")
+print("Negative Test:", "PASS" if negative_test_passed else "FAIL")
+
+if positive_test_passed and negative_test_passed:
+    print("\nOVERALL RESULT: PASS")
+else:
+    print("\nOVERALL RESULT: FAIL")
