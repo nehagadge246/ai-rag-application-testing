@@ -88,3 +88,34 @@ print(f"\nRetrieval Precision: {precision:.2f}")
 assert precision == 1.0, "FAIL: Retrieval precision is below 100%!"
 
 print("PASS: Retrieval precision is 100%!")
+
+# Lesson 16: Retrieval Recall Testing
+
+expected_documents = [
+    "Employees receive 20 annual leave days per year.",
+    "Employees receive 10 sick leave days per year."
+]
+
+question = "What leave benefits do employees receive?"
+
+retrieved_context = retrieve_documents(
+    question,
+    documents,
+    top_k=4
+)
+
+relevant_retrieved = [
+    doc for doc in expected_documents
+    if doc in retrieved_context
+]
+
+recall = len(relevant_retrieved) / len(expected_documents)
+
+print("\n===== RETRIEVAL RECALL TEST =====")
+print(f"Expected relevant documents: {len(expected_documents)}")
+print(f"Retrieved relevant documents: {len(relevant_retrieved)}")
+print(f"Retrieval Recall: {recall:.2f}")
+
+assert recall == 1.0, "FAIL: Some relevant documents were not retrieved!"
+
+print("PASS: Retrieval recall is 100%!")
