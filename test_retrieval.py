@@ -119,3 +119,28 @@ print(f"Retrieval Recall: {recall:.2f}")
 assert recall == 1.0, "FAIL: Some relevant documents were not retrieved!"
 
 print("PASS: Retrieval recall is 100%!")
+
+# Lesson 17: Negative Retrieval Test
+
+print("\n===== NEGATIVE RETRIEVAL TEST =====")
+
+# Simulate a retrieval failure
+incomplete_context = [
+    "Employees receive 20 annual leave days per year."
+]
+
+negative_recall = (
+    sum(
+        doc in incomplete_context
+        for doc in expected_documents
+    ) / len(expected_documents)
+)
+
+print(f"Expected documents: {len(expected_documents)}")
+print(f"Retrieved relevant documents: {sum(doc in incomplete_context for doc in expected_documents)}")
+print(f"Retrieval Recall: {negative_recall:.2f}")
+
+if negative_recall < 1.0:
+    print("PASS: Retrieval failure detected successfully!")
+else:
+    raise AssertionError("FAIL: Missing document was not detected!")
