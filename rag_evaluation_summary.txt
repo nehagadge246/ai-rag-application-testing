@@ -1,0 +1,21 @@
+====================================
+       RAG EVALUATION SUMMARY       
+====================================
+
+TEST CASE SUMMARY
+------------------------------
+Total Test Cases: 4
+Passed Test Cases: 2
+Failed Test Cases: 2
+Test Case Pass Rate: 50.00%
+
+METRIC EVALUATION SUMMARY
+------------------------------
+Total Metric Evaluations: 8
+Passed Metrics: 6
+Failed Metrics: 2
+Metric Pass Rate: 75.00%
+
+====================================
+         END OF REPORT             
+====================================
