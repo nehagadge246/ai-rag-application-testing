@@ -1,0 +1,9 @@
+Test Case,Metric,Score,Threshold,Status,Reason
+Test Case 1,Answer Relevancy,1.0,0.7,PASS,The score is 1.00 because the actual output does not provide any information about the number of annual leave days employees receive.
+Test Case 1,Faithfulness,1.0,0.7,PASS,The score is 1.00 because there are no contradictions in the 'actual output'.
+Test Case 2,Answer Relevancy,1.0,0.7,PASS,The score is 1.00 because the actual output does not provide any information about the number of annual leave days employees receive.
+Test Case 2,Faithfulness,0.0,0.7,FAIL,"The score is 0.00 because the actual output claims 30 annual leave days per year, which contradicts the information provided in the retrieval context stating 20 annual leave days per year."
+Test Case 3,Answer Relevancy,0.0,0.7,FAIL,The score is 0.00 because the actual output does not provide any information about the number of annual leave days employees receive.
+Test Case 3,Faithfulness,1.0,0.7,PASS,The score is 1.00 because there are no contradictions in the 'actual output'.
+Test Case 4,Answer Relevancy,1.0,0.7,PASS,The score is 1.00 because the actual output does not provide any information about the number of sick leave days employees receive.
+Test Case 4,Faithfulness,1.0,0.7,PASS,The score is 1.00 because there are no contradictions in the 'actual output'.
