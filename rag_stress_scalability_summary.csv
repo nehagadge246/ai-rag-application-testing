@@ -1,0 +1,4 @@
+Concurrency Level,Total Requests,Passed,Review,Failed,Success Rate (%),Average Latency (Seconds),Minimum Latency (Seconds),Maximum Latency (Seconds),P95 Latency (Seconds),Total Execution Time (Seconds),Throughput (Requests/Second)
+1,2,2,0,0,100.0,7.413,5.829,8.997,8.997,14.826,0.135
+2,4,4,0,0,100.0,13.514,8.494,15.909,15.909,30.844,0.13
+3,6,6,0,0,100.0,16.77,8.71,21.423,21.423,41.813,0.143
