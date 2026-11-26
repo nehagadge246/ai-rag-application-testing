@@ -1,0 +1,8 @@
+Test Name,Input,Expected Result,Actual Result,Status,Response Time Seconds
+Empty Question Validation,,Empty question rejected,Empty question rejected,PASS,0.0
+Whitespace Question Validation,'     ',Whitespace-only question rejected,Whitespace-only question rejected,PASS,0.0
+Unrelated Question Without Context,Who won the football world cup?,No relevant context available,No relevant context available,PASS,0.0
+Empty Context Handling,How many annual leave days do employees receive?,Fallback answer returned,Fallback answer returned,PASS,0.0
+Unexpected LLM Response Validation,"['', ""I don't know"", 'N/A', 'No relevant information found.']",Empty response detected and handled,Empty LLM response detected,PASS,0.0
+Ollama Connection Handling,http://localhost:11434,Connection status detected without crashing,Ollama API is reachable,PASS,2.16
+LLM API Response Validation,Reply with exactly the word PASS,Non-empty response or controlled error,LLM returned a non-empty response,PASS,2.48
