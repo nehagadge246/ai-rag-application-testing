@@ -1,118 +1,65 @@
-
-
-\# AI \& RAG Application Testing
-
-
-
-A practical QA automation project focused on testing AI and LLM-based applications using Python, Ollama, and DeepEval.
-
-
-
-\## Technologies Used
-
-
-
-\- Python
-
-\- Ollama
-
-\- Qwen 2.5 Coder 3B
-
-\- DeepEval
-
-\- RAG Testing
-
-\- LLM Evaluation
-
-
-
-\## Test Coverage
-
-
-
-\- Basic LLM response validation
-
-\- Answer Relevancy
-
-\- Faithfulness
-
-\- Contextual Precision
-
-\- Contextual Recall
-
-\- Hallucination Testing
-
-\- Bias Testing
-
-
-
-\## Project Structure
-
-
-
-\- `main.py` - Basic LLM integration
-
-\- `test\_llm.py` - Answer relevancy testing
-
-\- `test\_faithfulness.py` - Faithfulness evaluation
-
-\- `test\_rag.py` - RAG evaluation
-
-\- `test\_contextual\_precision.py` - Contextual precision
-
-\- `test\_contextual\_recall.py` - Contextual recall
-
-\- `test\_hallucination.py` - Hallucination detection
-
-\- `test\_bias.py` - Bias evaluation
-
-
-
-\## Setup
-
-
-
-1\. Install Python and Ollama.
-
-2\. Download the model:
-
-
-
-&#x20;  `ollama pull qwen2.5-coder:3b`
-
-
-
-3\. Create and activate a virtual environment.
-
-4\. Install dependencies:
-
-
-
-&#x20;  `pip install ollama deepeval requests`
-
-
-
-5\. Configure DeepEval to use Ollama:
-
-
-
-&#x20;  `deepeval set-ollama --model=qwen2.5-coder:3b --base-url=http://localhost:11434`
-
-
-
-6\. Run individual tests:
-
-
-
-&#x20;  `python test\_rag.py`
-
-
-
-\## Project Goal
-
-
-
-To explore practical QA techniques for validating AI-generated responses, RAG applications, and LLM evaluation metrics.
-
-
-
+# AI & RAG Application Testing
+
+A hands-on QA project demonstrating evaluation and testing of Retrieval-Augmented Generation (RAG) applications using RAGAs, DeepEval, Python, and locally hosted LLMs.
+
+## Project Overview
+
+This project explores how QA engineers can validate the quality, reliability, relevance, and factual accuracy of AI-generated responses in RAG applications.
+
+The evaluation environment uses Ollama with the qwen2.5-coder:3b model to run local LLM-based evaluations.
+
+## Technology Stack
+
+- Python 3.14
+- RAGAs
+- DeepEval
+- Ollama
+- qwen2.5-coder:3b
+- nomic-embed-text
+- Pandas
+- Streamlit
+- CSV reporting
+- Git and GitHub
+
+## Evaluation Coverage
+
+The project includes experiments with the following evaluation metrics:
+
+- Faithfulness
+- Answer Relevancy
+- Context Precision
+- Context Recall
+- Factual Correctness
+- Semantic Similarity
+- Noise Sensitivity
+- Context Utilization
+- Context Entity Recall
+- Response Groundedness
+- Answer Accuracy
+- Answer Correctness
+- Context Relevance
+- Topic Adherence
+- Aspect Critic
+- Summary Score
+- Domain-specific Rubrics
+- Instance-specific Rubrics
+
+## Advanced Testing Capabilities
+
+- Integrated RAGAs evaluation suite
+- Multiple dataset evaluation
+- Positive and negative test scenarios
+- Automated dataset validation
+- Metric threshold validation
+- CSV-based evaluation reports
+- Interactive Streamlit dashboard
+- Scenario-wise evaluation analysis
+- Failed scenario identification
+- QA recommendations based on evaluation results
+
+## Dashboard
+
+Run the dashboard locally:
+
+```powershell
+streamlit run ragas_dashboard.py
