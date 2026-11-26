@@ -1,0 +1,25 @@
+﻿Execution Date,Test Case ID,Query,Query Type,Expected Document,Top K,Similarity Threshold,Retrieved Document IDs,Accepted Document IDs,Expected Document Found,Expected Document Accepted,False Positive Documents,Root Cause,Status,Latency Ms
+2026-11-27 02:54:45,TC01,How many annual leave days do employees receive?,supported,DOC001,1,0.55,DOC001,DOC001,True,True,,Correct retrieval,PASS,2087.66
+2026-11-27 02:54:45,TC02,What is the sick leave entitlement?,supported,DOC002,1,0.55,DOC002,DOC002,True,True,,Correct retrieval,PASS,2077.03
+2026-11-27 02:54:45,TC03,Can staff work from home during the week?,supported,DOC003,1,0.55,DOC003,DOC003,True,True,,Correct retrieval,PASS,2058.61
+2026-11-27 02:54:45,TC04,How long is maternity leave?,supported,DOC004,1,0.55,DOC004,DOC004,True,True,,Correct retrieval,PASS,2071.05
+2026-11-27 02:54:45,TC05,What is the employee insurance premium?,unsupported,,1,0.55,DOC002,,False,False,,Correctly rejected unsupported query,PASS,2057.96
+2026-11-27 02:54:45,TC06,What is the guaranteed annual bonus?,unsupported,,1,0.55,DOC001,,False,False,,Correctly rejected unsupported query,PASS,2089.72
+2026-11-27 02:54:45,TC01,How many annual leave days do employees receive?,supported,DOC001,2,0.55,DOC001;DOC002,DOC001;DOC002,True,True,DOC002,Correct document retrieved with extra candidates,FAIL,2060.93
+2026-11-27 02:54:45,TC02,What is the sick leave entitlement?,supported,DOC002,2,0.55,DOC002;DOC004,DOC002,True,True,,Correct retrieval,PASS,2083.36
+2026-11-27 02:54:45,TC03,Can staff work from home during the week?,supported,DOC003,2,0.55,DOC003;DOC002,DOC003,True,True,,Correct retrieval,PASS,2058.85
+2026-11-27 02:54:45,TC04,How long is maternity leave?,supported,DOC004,2,0.55,DOC004;DOC001,DOC004,True,True,,Correct retrieval,PASS,2064.3
+2026-11-27 02:54:45,TC05,What is the employee insurance premium?,unsupported,,2,0.55,DOC002;DOC004,,False,False,,Correctly rejected unsupported query,PASS,2081.83
+2026-11-27 02:54:45,TC06,What is the guaranteed annual bonus?,unsupported,,2,0.55,DOC001;DOC005,,False,False,,Correctly rejected unsupported query,PASS,2062.71
+2026-11-27 02:54:45,TC01,How many annual leave days do employees receive?,supported,DOC001,3,0.55,DOC001;DOC002;DOC004,DOC001;DOC002;DOC004,True,True,DOC002;DOC004,Correct document retrieved with extra candidates,FAIL,2102.06
+2026-11-27 02:54:45,TC02,What is the sick leave entitlement?,supported,DOC002,3,0.55,DOC002;DOC004;DOC001,DOC002,True,True,,Correct retrieval,PASS,2096.97
+2026-11-27 02:54:45,TC03,Can staff work from home during the week?,supported,DOC003,3,0.55,DOC003;DOC002;DOC004,DOC003,True,True,,Correct retrieval,PASS,2066.52
+2026-11-27 02:54:45,TC04,How long is maternity leave?,supported,DOC004,3,0.55,DOC004;DOC001;DOC002,DOC004,True,True,,Correct retrieval,PASS,2050.19
+2026-11-27 02:54:45,TC05,What is the employee insurance premium?,unsupported,,3,0.55,DOC002;DOC004;DOC001,,False,False,,Correctly rejected unsupported query,PASS,2081.76
+2026-11-27 02:54:45,TC06,What is the guaranteed annual bonus?,unsupported,,3,0.55,DOC001;DOC005;DOC002,,False,False,,Correctly rejected unsupported query,PASS,2045.2
+2026-11-27 02:54:45,TC01,How many annual leave days do employees receive?,supported,DOC001,5,0.55,DOC001;DOC002;DOC004;DOC003;DOC005,DOC001;DOC002;DOC004,True,True,DOC002;DOC004,Correct document retrieved with extra candidates,FAIL,2047.02
+2026-11-27 02:54:45,TC02,What is the sick leave entitlement?,supported,DOC002,5,0.55,DOC002;DOC004;DOC001;DOC006;DOC003,DOC002,True,True,,Correct retrieval,PASS,2073.31
+2026-11-27 02:54:45,TC03,Can staff work from home during the week?,supported,DOC003,5,0.55,DOC003;DOC002;DOC004;DOC001;DOC005,DOC003,True,True,,Correct retrieval,PASS,2087.86
+2026-11-27 02:54:45,TC04,How long is maternity leave?,supported,DOC004,5,0.55,DOC004;DOC001;DOC002;DOC003;DOC005,DOC004,True,True,,Correct retrieval,PASS,2058.2
+2026-11-27 02:54:45,TC05,What is the employee insurance premium?,unsupported,,5,0.55,DOC002;DOC004;DOC001;DOC008;DOC006,,False,False,,Correctly rejected unsupported query,PASS,2065.53
+2026-11-27 02:54:45,TC06,What is the guaranteed annual bonus?,unsupported,,5,0.55,DOC001;DOC005;DOC002;DOC008;DOC004,,False,False,,Correctly rejected unsupported query,PASS,2085.29
