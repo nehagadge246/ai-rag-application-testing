@@ -1,0 +1,5 @@
+Test Case,Question,Requested Top-K,Retrieved Count,Top Document,Top Similarity,Ranking Status,Top-K Count Status,Retrieval Status
+1,How much paid vacation do employees get?,3,3,Employees receive 20 annual leave days per year.,0.6969,PASS,PASS,PASS
+2,What is the sick leave entitlement?,2,2,Employees receive 10 sick leave days per year.,0.7133,PASS,PASS,PASS
+3,How often can staff work from home?,3,3,Employees can work remotely twice a week.,0.7081,PASS,PASS,PASS
+4,What is the employee's annual bonus amount?,3,3,Employees receive 20 annual leave days per year.,0.6537,REVIEW,PASS,REVIEW
