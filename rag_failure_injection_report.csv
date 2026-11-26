@@ -1,0 +1,9 @@
+Test Name,Failure Condition,Expected Result,Actual Result,Status,Execution Time (Seconds)
+Ollama Service Unavailable,Connection error injected,Application should detect service connection failure,Connection failure detected and handled,PASS,0.001
+Invalid API Endpoint,HTTP 404 response injected,Application should detect HTTP error,HTTP 404 error detected and handled,PASS,0.0
+API Request Timeout,Timeout exception injected,Application should detect API timeout,API timeout detected and handled,PASS,0.0
+Malformed API Response,Invalid JSON response injected,Application should detect malformed JSON,Malformed JSON response detected,PASS,0.0
+Empty Retrieval Results,Empty document list supplied,System should handle empty retrieval results,Empty retrieval detected; fallback message returned,PASS,0.0
+Empty LLM Response,Empty response injected,System should detect empty LLM response,Empty LLM response detected,PASS,0.0
+Unexpected LLM Output Type,None supplied instead of string,System should identify invalid response type,Unexpected response type detected,PASS,0.0
+API Recovery,Successful API response supplied after failure scenarios,System should accept a valid API response,API recovery successful; valid response received,PASS,0.0
