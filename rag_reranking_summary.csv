@@ -1,3 +1,2 @@
-Execution Date,Method,Total Tests,Top1 Accuracy (%),Hit Rate (%),Precision@3,Recall@3,MRR,Average Retrieval Latency (ms),Average Reranking Latency (ms)
-2026-11-27 00:27:54,Baseline Vector Search,10,100.0,100.0,0.3333,1.0,1.0,28.042,
-2026-11-27 00:27:54,Hybrid Reranking,10,100.0,100.0,0.3333,1.0,1.0,,0.045
+﻿Execution Date,Total Test Cases,Supported Queries,Unsupported Queries,Initial MRR,Reranked MRR,Initial Precision@3,Reranked Precision@3,Initial Recall@3,Reranked Recall@3,Expected Documents in Candidate Set,Reranked Expected Documents in Top 3,True Acceptances,False Rejections,True Rejections,False Acceptances,Unsupported Queries Rejected,Acceptance Accuracy,Average Retrieval Latency Ms,Average Reranking Latency Ms
+2026-11-27T03:51:15,6,4,2,1.0,0.625,0.3333,0.3333,1.0,1.0,4,4,4,0,2,0,2,1.0,2072.02,12929.85
