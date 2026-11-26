@@ -1,0 +1,4 @@
+﻿Method,Total Tests,Passed,Failed,Overall Pass Rate (%),Supported Tests,Unsupported Tests,Supported Precision@3,Supported Recall@3,Supported MRR,Supported Top1 Accuracy (%),Unsupported Rejection Rate (%),Average Retrieval-only Latency (ms)
+Vector Search,12,10,2,83.33,9,3,0.2963,0.8889,0.8889,88.89,66.67,1.089
+Keyword Search,12,12,0,100.0,9,3,0.3333,1.0,1.0,100.0,100.0,0.158
+Hybrid Search,12,12,0,100.0,9,3,0.3333,1.0,1.0,100.0,100.0,1.259

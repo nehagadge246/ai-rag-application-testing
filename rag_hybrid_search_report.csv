@@ -1,0 +1,37 @@
+﻿Test Case,Question,Expected Documents,Method,Best Candidate,Best Vector Similarity,Best Keyword Coverage,Best RRF Score,Out of Vocabulary Terms,Accepted Documents,Precision@3,Recall@3,MRR,Top1 Accuracy,Latency (ms),Status
+Annual Leave,How many annual leave days do employees receive?,DOC001,Vector Search,DOC001,0.870642,1.0,0.03278689,,DOC001;DOC002;DOC005,0.3333,1.0,1.0,1,1.262,PASS
+Annual Leave,How many annual leave days do employees receive?,DOC001,Keyword Search,DOC001,0.870642,1.0,0.03278689,,DOC001,0.3333,1.0,1.0,1,0.188,PASS
+Annual Leave,How many annual leave days do employees receive?,DOC001,Hybrid Search,DOC001,0.870642,1.0,0.03278689,,DOC001;DOC002;DOC005,0.3333,1.0,1.0,1,1.465,PASS
+Sick Leave,How many sick leave days are available?,DOC002,Vector Search,DOC002,0.80241,1.0,0.03278689,,DOC002,0.3333,1.0,1.0,1,1.243,PASS
+Sick Leave,How many sick leave days are available?,DOC002,Keyword Search,DOC002,0.80241,1.0,0.03278689,,DOC002,0.3333,1.0,1.0,1,0.183,PASS
+Sick Leave,How many sick leave days are available?,DOC002,Hybrid Search,DOC002,0.80241,1.0,0.03278689,,DOC002,0.3333,1.0,1.0,1,1.44,PASS
+Remote Work,What is the remote work policy?,DOC003,Vector Search,DOC003,0.83435,1.0,0.03278689,,DOC003,0.3333,1.0,1.0,1,1.253,PASS
+Remote Work,What is the remote work policy?,DOC003,Keyword Search,DOC003,0.83435,1.0,0.03278689,,DOC003,0.3333,1.0,1.0,1,0.2,PASS
+Remote Work,What is the remote work policy?,DOC003,Hybrid Search,DOC003,0.83435,1.0,0.03278689,,DOC003,0.3333,1.0,1.0,1,1.474,PASS
+Parental Leave,How many weeks of parental leave are provided?,DOC004,Vector Search,DOC004,0.840232,0.75,0.03278689,,DOC004,0.3333,1.0,1.0,1,0.752,PASS
+Parental Leave,How many weeks of parental leave are provided?,DOC004,Keyword Search,DOC004,0.840232,0.75,0.03278689,,DOC004,0.3333,1.0,1.0,1,0.136,PASS
+Parental Leave,How many weeks of parental leave are provided?,DOC004,Hybrid Search,DOC004,0.840232,0.75,0.03278689,,DOC004,0.3333,1.0,1.0,1,0.898,PASS
+Public Holidays,How many public holidays are provided annually?,DOC005,Vector Search,DOC005,0.825945,1.0,0.03278689,,DOC005,0.3333,1.0,1.0,1,1.033,PASS
+Public Holidays,How many public holidays are provided annually?,DOC005,Keyword Search,DOC005,0.825945,1.0,0.03278689,,DOC005,0.3333,1.0,1.0,1,0.137,PASS
+Public Holidays,How many public holidays are provided annually?,DOC005,Hybrid Search,DOC005,0.825945,1.0,0.03278689,,DOC005,0.3333,1.0,1.0,1,1.179,PASS
+IT Security,What are the password and authentication requirements?,DOC006,Vector Search,DOC006,0.737274,1.0,0.03278689,,DOC006,0.3333,1.0,1.0,1,1.405,PASS
+IT Security,What are the password and authentication requirements?,DOC006,Keyword Search,DOC006,0.737274,1.0,0.03278689,,DOC006,0.3333,1.0,1.0,1,0.224,PASS
+IT Security,What are the password and authentication requirements?,DOC006,Hybrid Search,DOC006,0.737274,1.0,0.03278689,,DOC006,0.3333,1.0,1.0,1,1.645,PASS
+Travel Reimbursement,How can employees claim business travel expenses?,DOC007,Vector Search,DOC007,0.868691,1.0,0.03278689,,DOC007,0.3333,1.0,1.0,1,0.77,PASS
+Travel Reimbursement,How can employees claim business travel expenses?,DOC007,Keyword Search,DOC007,0.868691,1.0,0.03278689,,DOC007,0.3333,1.0,1.0,1,0.113,PASS
+Travel Reimbursement,How can employees claim business travel expenses?,DOC007,Hybrid Search,DOC007,0.868691,1.0,0.03278689,,DOC007,0.3333,1.0,1.0,1,0.893,PASS
+Performance Review,How frequently are employee performance reviews conducted?,DOC008,Vector Search,DOC008,0.844248,1.0,0.03278689,,DOC008,0.3333,1.0,1.0,1,1.28,PASS
+Performance Review,How frequently are employee performance reviews conducted?,DOC008,Keyword Search,DOC008,0.844248,1.0,0.03278689,,DOC008,0.3333,1.0,1.0,1,0.152,PASS
+Performance Review,How frequently are employee performance reviews conducted?,DOC008,Hybrid Search,DOC008,0.844248,1.0,0.03278689,,DOC008,0.3333,1.0,1.0,1,1.444,PASS
+Unsupported Insurance,Does the company provide health insurance?,,Vector Search,DOC005,0.584945,0.0,0.03177806,health;insurance,,0.0,0.0,0.0,0,1.301,PASS
+Unsupported Insurance,Does the company provide health insurance?,,Keyword Search,DOC001,0.505678,0.0,0.03177806,health;insurance,,0.0,0.0,0.0,0,0.157,PASS
+Unsupported Insurance,Does the company provide health insurance?,,Hybrid Search,DOC002,0.549701,0.0,0.03200205,health;insurance,,0.0,0.0,0.0,0,1.471,PASS
+Unsupported Bonus,How much annual bonus do employees receive?,,Vector Search,DOC001,0.682115,0.0,0.03278689,bonus,DOC001,0.0,0.0,0.0,0,0.922,FAIL
+Unsupported Bonus,How much annual bonus do employees receive?,,Keyword Search,DOC001,0.682115,0.0,0.03278689,bonus,,0.0,0.0,0.0,0,0.133,PASS
+Unsupported Bonus,How much annual bonus do employees receive?,,Hybrid Search,DOC001,0.682115,0.0,0.03278689,bonus,,0.0,0.0,0.0,0,1.067,PASS
+Unrelated Query,What is the current gold price?,,Vector Search,DOC001,0.387001,0.0,0.03278689,gold;price,,0.0,0.0,0.0,0,1.058,PASS
+Unrelated Query,What is the current gold price?,,Keyword Search,DOC001,0.387001,0.0,0.03278689,gold;price,,0.0,0.0,0.0,0,0.155,PASS
+Unrelated Query,What is the current gold price?,,Hybrid Search,DOC001,0.387001,0.0,0.03278689,gold;price,,0.0,0.0,0.0,0,1.226,PASS
+Exact Number Query,Which policy mentions 15 days?,DOC001,Vector Search,DOC001,0.642697,1.0,0.03278689,,,0.0,0.0,0.0,0,0.785,FAIL
+Exact Number Query,Which policy mentions 15 days?,DOC001,Keyword Search,DOC001,0.642697,1.0,0.03278689,,DOC001,0.3333,1.0,1.0,1,0.112,PASS
+Exact Number Query,Which policy mentions 15 days?,DOC001,Hybrid Search,DOC001,0.642697,1.0,0.03278689,,DOC001,0.3333,1.0,1.0,1,0.907,PASS
