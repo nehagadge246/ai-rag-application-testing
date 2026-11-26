@@ -1,0 +1,11 @@
+Scenario,Original Question,Rewritten Question,Baseline Best Document,Baseline Similarity,Baseline Retrieved Documents,Baseline Status,Enhanced Best Document,Enhanced Similarity,Enhanced Retrieved Documents,Enhanced Status,Improvement,Baseline Latency Seconds,Enhanced Latency Seconds
+Normal Query,How many annual leave days do employees receive?,How many annual leave days do employees receive?,DOC001,0.867,DOC001;DOC002;DOC004,PASS,DOC001,0.867,DOC001;DOC002;DOC004,PASS,MAINTAINED,2.066,2.085
+Short Query,Leave?,"What are the annual leave, sick leave, and parental leave policies for employees?",DOC001,0.5944,,FAIL,DOC004,0.7662,DOC004;DOC002;DOC001,PASS,IMPROVED,2.064,2.058
+Misspelled Query,How meny anuel leev dayz do employes get?,How many annual leave days do employees receive?,DOC002,0.5672,,FAIL,DOC001,0.867,DOC001;DOC002;DOC004,PASS,IMPROVED,2.092,2.088
+Ambiguous Query,What is the leave policy?,"What are the annual leave, sick leave, and parental leave policies for employees?",DOC001,0.6094,,FAIL,DOC004,0.7662,DOC004;DOC002;DOC001,PASS,IMPROVED,2.077,2.081
+Numeric Query,15 days?,How many annual leave days do employees receive? Employees receive 15 annual leave days per year.,DOC001,0.5205,,FAIL,DOC001,0.8963,DOC001;DOC002;DOC004,PASS,IMPROVED,2.075,2.085
+Multiple Topic Query,Tell me about annual leave and sick leave,What is the annual leave allowance and how many sick leave days do employees receive?,DOC002,0.7663,DOC002;DOC001,PASS,DOC002,0.8408,DOC002;DOC001,PASS,MAINTAINED,2.08,2.087
+Paraphrased Query,How much time off can workers take annually?,How many annual leave days do employees receive each year?,DOC001,0.708,DOC001;DOC002,PASS,DOC001,0.8746,DOC001;DOC002,PASS,MAINTAINED,2.077,2.082
+Unsupported Insurance Query,Does the company provide health insurance?,Does the company provide health insurance,DOC005,0.617,,PASS,DOC005,0.6067,,PASS,MAINTAINED,2.075,2.062
+Unsupported Bonus Query,How much annual bonus do employees receive?,How much annual bonus do employees receive,DOC001,0.6613,,PASS,DOC001,0.6612,,PASS,MAINTAINED,2.099,2.06
+Unrelated Query,What is the current gold price?,What is the current gold price,DOC005,0.3693,,PASS,DOC005,0.3587,,PASS,MAINTAINED,2.104,2.081

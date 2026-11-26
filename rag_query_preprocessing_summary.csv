@@ -1,0 +1,2 @@
+Execution Date,Total Test Cases,Baseline Passed,Baseline Failed,Baseline Pass Rate Percent,Enhanced Passed,Enhanced Failed,Enhanced Pass Rate Percent,Pass Rate Improvement,Average Baseline Latency Seconds,Average Enhanced Latency Seconds,Similarity Threshold,Top K,Embedding Model
+2026-11-26 23:41:07,10,6,4,60.0,10,0,100.0,40.0,2.081,2.077,0.68,3,nomic-embed-text:latest
