@@ -1,0 +1,33 @@
+﻿Context Limit Words,Original Context Words,Retained Context Words,Truncation Percent,Test ID,Query,Expected Document,Expected Document Present,Found Keywords,Missing Keywords,Keyword Coverage Percent,Evaluation Latency Ms,Status
+100,334,100,70.06,TC01,How many annual leave days do employees receive?,DOC001,Yes,"15 days, annual leave",,100.0,0.3767,PASS
+100,334,100,70.06,TC02,How many paid sick leave days are available?,DOC002,Yes,"10 days, paid sick leave",,100.0,0.1626,PASS
+100,334,100,70.06,TC03,How many days per week can employees work remotely?,DOC003,Yes,,"3 days, manager approval",0.0,0.119,FAIL_INFORMATION_MISSING
+100,334,100,70.06,TC04,How many weeks of maternity leave are provided?,DOC004,No,,"26 weeks, maternity leave",0.0,0.0994,FAIL_EXPECTED_DOCUMENT_MISSING
+100,334,100,70.06,TC05,Are officially declared public holidays paid?,DOC005,No,,"paid leave, public holidays",0.0,0.1179,FAIL_EXPECTED_DOCUMENT_MISSING
+100,334,100,70.06,TC06,What authentication method must employees enable?,DOC006,No,,"multi-factor authentication, strong passwords",0.0,0.0857,FAIL_EXPECTED_DOCUMENT_MISSING
+100,334,100,70.06,TC07,What proof is needed for travel reimbursement?,DOC007,No,,"receipts, approved business travel expenses",0.0,0.0849,FAIL_EXPECTED_DOCUMENT_MISSING
+100,334,100,70.06,TC08,How often are employee performance reviews conducted?,DOC008,No,,"twice every year, performance",0.0,0.1032,FAIL_EXPECTED_DOCUMENT_MISSING
+200,334,200,40.12,TC01,How many annual leave days do employees receive?,DOC001,Yes,"15 days, annual leave",,100.0,0.0462,PASS
+200,334,200,40.12,TC02,How many paid sick leave days are available?,DOC002,Yes,"10 days, paid sick leave",,100.0,0.0275,PASS
+200,334,200,40.12,TC03,How many days per week can employees work remotely?,DOC003,Yes,"3 days, manager approval",,100.0,0.0228,PASS
+200,334,200,40.12,TC04,How many weeks of maternity leave are provided?,DOC004,Yes,"26 weeks, maternity leave",,100.0,0.0279,PASS
+200,334,200,40.12,TC05,Are officially declared public holidays paid?,DOC005,Yes,"paid leave, public holidays",,100.0,0.0118,PASS
+200,334,200,40.12,TC06,What authentication method must employees enable?,DOC006,No,,"multi-factor authentication, strong passwords",0.0,0.0084,FAIL_EXPECTED_DOCUMENT_MISSING
+200,334,200,40.12,TC07,What proof is needed for travel reimbursement?,DOC007,No,,"receipts, approved business travel expenses",0.0,0.006,FAIL_EXPECTED_DOCUMENT_MISSING
+200,334,200,40.12,TC08,How often are employee performance reviews conducted?,DOC008,No,,"twice every year, performance",0.0,0.0056,FAIL_EXPECTED_DOCUMENT_MISSING
+400,334,334,0.0,TC01,How many annual leave days do employees receive?,DOC001,Yes,"15 days, annual leave",,100.0,0.0636,PASS
+400,334,334,0.0,TC02,How many paid sick leave days are available?,DOC002,Yes,"10 days, paid sick leave",,100.0,0.0502,PASS
+400,334,334,0.0,TC03,How many days per week can employees work remotely?,DOC003,Yes,"3 days, manager approval",,100.0,0.045,PASS
+400,334,334,0.0,TC04,How many weeks of maternity leave are provided?,DOC004,Yes,"26 weeks, maternity leave",,100.0,0.0342,PASS
+400,334,334,0.0,TC05,Are officially declared public holidays paid?,DOC005,Yes,"paid leave, public holidays",,100.0,0.0322,PASS
+400,334,334,0.0,TC06,What authentication method must employees enable?,DOC006,Yes,"multi-factor authentication, strong passwords",,100.0,0.0267,PASS
+400,334,334,0.0,TC07,What proof is needed for travel reimbursement?,DOC007,Yes,"receipts, approved business travel expenses",,100.0,0.0205,PASS
+400,334,334,0.0,TC08,How often are employee performance reviews conducted?,DOC008,Yes,"twice every year, performance",,100.0,0.0124,PASS
+800,334,334,0.0,TC01,How many annual leave days do employees receive?,DOC001,Yes,"15 days, annual leave",,100.0,0.0601,PASS
+800,334,334,0.0,TC02,How many paid sick leave days are available?,DOC002,Yes,"10 days, paid sick leave",,100.0,0.0623,PASS
+800,334,334,0.0,TC03,How many days per week can employees work remotely?,DOC003,Yes,"3 days, manager approval",,100.0,0.0477,PASS
+800,334,334,0.0,TC04,How many weeks of maternity leave are provided?,DOC004,Yes,"26 weeks, maternity leave",,100.0,0.0399,PASS
+800,334,334,0.0,TC05,Are officially declared public holidays paid?,DOC005,Yes,"paid leave, public holidays",,100.0,0.0331,PASS
+800,334,334,0.0,TC06,What authentication method must employees enable?,DOC006,Yes,"multi-factor authentication, strong passwords",,100.0,0.0262,PASS
+800,334,334,0.0,TC07,What proof is needed for travel reimbursement?,DOC007,Yes,"receipts, approved business travel expenses",,100.0,0.0199,PASS
+800,334,334,0.0,TC08,How often are employee performance reviews conducted?,DOC008,Yes,"twice every year, performance",,100.0,0.0125,PASS

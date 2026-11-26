@@ -1,0 +1,2 @@
+﻿Execution Date,Total Test Cases,Passed,Failed,Pass Rate,Retrieval Tests,Semantic Search Tests,Query Handling Tests,Unsupported Query Tests,Prompt Injection Tests,Document Poisoning Tests,Hallucination Tests,Quarantined Documents,Direct Attacks Detected,Indirect Injections Detected,Average Latency Ms,Embedding Model,Top K,Similarity Threshold
+2026-11-27 02:04:52,14,14,0,100.0,4,2,2,2,1,1,2,2,1,2,2069.52,all-minilm:latest,3,0.55

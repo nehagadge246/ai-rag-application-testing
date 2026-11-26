@@ -1,0 +1,5 @@
+﻿Context Limit Words,Original Context Words,Retained Context Words,Truncation Percent,Total Test Cases,Passed,Failed,Pass Rate,Average Keyword Coverage Percent,Average Evaluation Latency Ms
+100,334,100,70.06,8,2,6,25.0,25.0,0.1437
+200,334,200,40.12,8,5,3,62.5,62.5,0.0195
+400,334,334,0.0,8,8,0,100.0,100.0,0.0356
+800,334,334,0.0,8,8,0,100.0,100.0,0.0377

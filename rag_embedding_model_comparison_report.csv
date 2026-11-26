@@ -1,0 +1,25 @@
+﻿Model,Test ID,Query,Expected Document,Retrieved Documents,Top Similarity,Expected Rank,Top1 Correct,Precision@K,Recall@K,Query Embedding Latency Ms,Supported,Status
+nomic-embed-text:latest,TC01,How many annual leave days do employees get?,DOC001,"DOC001, DOC002, DOC005",0.8916,1,Yes,0.3333,1.0,33.87,Yes,PASS
+nomic-embed-text:latest,TC02,What is the paid sick leave allowance?,DOC002,"DOC002, DOC005, DOC001",0.7829,1,Yes,0.3333,1.0,31.92,Yes,PASS
+nomic-embed-text:latest,TC03,Can staff work from home?,DOC003,"DOC003, DOC002, DOC005",0.6683,1,Yes,0.3333,1.0,30.64,Yes,PASS
+nomic-embed-text:latest,TC04,How much maternity leave is provided?,DOC004,"DOC004, DOC001, DOC002",0.7831,1,Yes,0.3333,1.0,30.19,Yes,PASS
+nomic-embed-text:latest,TC05,Which public holidays are paid?,DOC005,"DOC005, DOC002, DOC004",0.8198,1,Yes,0.3333,1.0,30.7,Yes,PASS
+nomic-embed-text:latest,TC06,What are the password and MFA requirements?,DOC006,"DOC006, DOC003, DOC007",0.6482,1,Yes,0.3333,1.0,32.37,Yes,PASS
+nomic-embed-text:latest,TC07,How can I claim business trip expenses?,DOC007,"DOC007, DOC005, DOC002",0.7895,1,Yes,0.3333,1.0,32.67,Yes,PASS
+nomic-embed-text:latest,TC08,How often are employee performance reviews conducted?,DOC008,"DOC008, DOC003, DOC001",0.8298,1,Yes,0.3333,1.0,31.74,Yes,PASS
+nomic-embed-text:latest,TC09,How many vacation days can staff take?,DOC001,"DOC002, DOC003, DOC001",0.7184,3,No,0.3333,1.0,31.76,Yes,PASS
+nomic-embed-text:latest,TC10,What is the employee insurance coverage?,N/A,"DOC007, DOC005, DOC008",0.5953,0,N/A,0.0,0.0,28.1,No,REJECTED
+nomic-embed-text:latest,TC11,What is the annual employee bonus amount?,N/A,"DOC001, DOC008, DOC004",0.6823,0,N/A,0.0,0.0,29.77,No,REVIEW
+nomic-embed-text:latest,TC12,What is the current price of gold?,N/A,"DOC005, DOC001, DOC008",0.393,0,N/A,0.0,0.0,29.58,No,REJECTED
+all-minilm:latest,TC01,How many annual leave days do employees get?,DOC001,"DOC001, DOC002, DOC005",0.7954,1,Yes,0.3333,1.0,12.51,Yes,PASS
+all-minilm:latest,TC02,What is the paid sick leave allowance?,DOC002,"DOC002, DOC005, DOC001",0.642,1,Yes,0.3333,1.0,12.04,Yes,PASS
+all-minilm:latest,TC03,Can staff work from home?,DOC003,"DOC003, DOC005, DOC004",0.457,1,Yes,0.3333,1.0,13.54,Yes,PASS
+all-minilm:latest,TC04,How much maternity leave is provided?,DOC004,"DOC004, DOC001, DOC005",0.744,1,Yes,0.3333,1.0,12.1,Yes,PASS
+all-minilm:latest,TC05,Which public holidays are paid?,DOC005,"DOC005, DOC007, DOC001",0.7264,1,Yes,0.3333,1.0,10.35,Yes,PASS
+all-minilm:latest,TC06,What are the password and MFA requirements?,DOC006,"DOC006, DOC004, DOC003",0.6005,1,Yes,0.3333,1.0,12.82,Yes,PASS
+all-minilm:latest,TC07,How can I claim business trip expenses?,DOC007,"DOC007, DOC005, DOC001",0.7194,1,Yes,0.3333,1.0,11.49,Yes,PASS
+all-minilm:latest,TC08,How often are employee performance reviews conducted?,DOC008,"DOC008, DOC001, DOC003",0.7117,1,Yes,0.3333,1.0,12.97,Yes,PASS
+all-minilm:latest,TC09,How many vacation days can staff take?,DOC001,"DOC001, DOC002, DOC003",0.5731,1,Yes,0.3333,1.0,12.36,Yes,PASS
+all-minilm:latest,TC10,What is the employee insurance coverage?,N/A,"DOC001, DOC002, DOC004",0.3745,0,N/A,0.0,0.0,11.82,No,REJECTED
+all-minilm:latest,TC11,What is the annual employee bonus amount?,N/A,"DOC001, DOC005, DOC002",0.4378,0,N/A,0.0,0.0,12.47,No,REJECTED
+all-minilm:latest,TC12,What is the current price of gold?,N/A,"DOC006, DOC005, DOC001",0.0103,0,N/A,0.0,0.0,13.64,No,REJECTED

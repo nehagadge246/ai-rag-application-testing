@@ -1,0 +1,25 @@
+Test ID,Original Query,Strategy,Number Of Query Variations,Expected Document,Retrieved Documents,Status,Hit,Precision At K,Reciprocal Rank,Top 1 Correct,Retrieval Latency Ms
+TC01,annual leave,Original Query,1,DOC001,"DOC001, DOC002, DOC004",PASS,1,0.3333,1.0,1,23.92
+TC01,annual leave,Multi-Query RRF,4,DOC001,"DOC001, DOC002, DOC004",PASS,1,0.3333,1.0,1,107.48
+TC02,sick days,Original Query,1,DOC002,"DOC002, DOC001, DOC003",PASS,1,0.3333,1.0,1,25.11
+TC02,sick days,Multi-Query RRF,4,DOC002,"DOC002, DOC001, DOC003",PASS,1,0.3333,1.0,1,103.42
+TC03,work from home,Original Query,1,DOC003,"DOC003, DOC004, DOC001",PASS,1,0.3333,1.0,1,23.94
+TC03,work from home,Multi-Query RRF,4,DOC003,"DOC003, DOC002, DOC004",PASS,1,0.3333,1.0,1,104.39
+TC04,maternity leave,Original Query,1,DOC004,"DOC004, DOC001, DOC002",PASS,1,0.3333,1.0,1,25.32
+TC04,maternity leave,Multi-Query RRF,4,DOC004,"DOC004, DOC001, DOC002",PASS,1,0.3333,1.0,1,111.68
+TC05,holidays,Original Query,1,DOC005,"DOC005, DOC002, DOC001",PASS,1,0.3333,1.0,1,24.8
+TC05,holidays,Multi-Query RRF,4,DOC005,"DOC005, DOC002, DOC001",PASS,1,0.3333,1.0,1,107.85
+TC06,password rules,Original Query,1,DOC006,"DOC006, DOC003, DOC004",PASS,1,0.3333,1.0,1,25.07
+TC06,password rules,Multi-Query RRF,4,DOC006,"DOC006, DOC003, DOC002",PASS,1,0.3333,1.0,1,104.9
+TC07,travel costs,Original Query,1,DOC007,"DOC007, DOC002, DOC003",PASS,1,0.3333,1.0,1,24.72
+TC07,travel costs,Multi-Query RRF,4,DOC007,"DOC007, DOC002, DOC003",PASS,1,0.3333,1.0,1,110.17
+TC08,performance review,Original Query,1,DOC008,"DOC008, DOC007, DOC003",PASS,1,0.3333,1.0,1,24.58
+TC08,performance review,Multi-Query RRF,4,DOC008,"DOC008, DOC003, DOC007",PASS,1,0.3333,1.0,1,103.4
+TC09,employee bonus,Original Query,1,UNSUPPORTED,"DOC001, DOC004, DOC008",REVIEW,0,0.0,0.0,0,24.59
+TC09,employee bonus,Multi-Query RRF,4,UNSUPPORTED,"DOC001, DOC004, DOC008",REVIEW,0,0.0,0.0,0,104.09
+TC10,health insurance,Original Query,1,UNSUPPORTED,"DOC002, DOC007, DOC004",REVIEW,0,0.0,0.0,0,24.59
+TC10,health insurance,Multi-Query RRF,4,UNSUPPORTED,"DOC002, DOC004, DOC005",REVIEW,0,0.0,0.0,0,101.67
+TC11,gold prices,Original Query,1,UNSUPPORTED,"DOC001, DOC005, DOC008",REVIEW,0,0.0,0.0,0,23.15
+TC11,gold prices,Multi-Query RRF,4,UNSUPPORTED,"DOC001, DOC005, DOC002",REVIEW,0,0.0,0.0,0,103.91
+TC12,office parking,Original Query,1,UNSUPPORTED,"DOC003, DOC006, DOC001",REVIEW,0,0.0,0.0,0,23.33
+TC12,office parking,Multi-Query RRF,4,UNSUPPORTED,"DOC003, DOC006, DOC001",REVIEW,0,0.0,0.0,0,103.24

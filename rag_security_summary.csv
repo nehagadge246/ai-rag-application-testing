@@ -1,0 +1,2 @@
+﻿Execution Date,Embedding Model,Total Documents,Total Test Cases,Security Attack Cases,Normal Query Cases,Passed,Failed,Overall Pass Rate,Attack Detection Rate,Attack Blocking Rate,Normal Query Pass Rate,Quarantined Document Cases,Poisoned Document Exposure Cases,Normal Query Poisoning Rate,Indirect Injection Detection Rate,Similarity Threshold,Top K
+2026-11-27 02:00:12,all-minilm:latest,9,12,8,4,12,0,100.0,100.0,100.0,100.0,10,0,0.0,100.0,0.55,3

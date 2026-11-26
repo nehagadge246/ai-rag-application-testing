@@ -1,0 +1,3 @@
+﻿Total Test Cases,Supported Cases,Unsupported Cases,Passed,Failed,Pass Rate,Precision At K,Recall At K,MRR,Top 1 Accuracy,Unsupported Rejection Rate,Unsupported Review Rate,Average Query Embedding Latency Ms,Model,Index Embedding Time Ms,Top K,Similarity Threshold
+12,9,3,9,0,100.0,0.3333,1.0,0.9259,88.89,66.67,33.33,31.11,nomic-embed-text:latest,575.11,3,0.68
+12,9,3,9,0,100.0,0.3333,1.0,1.0,100.0,100.0,0.0,12.34,all-minilm:latest,388.48,3,0.68

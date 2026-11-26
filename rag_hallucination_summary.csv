@@ -1,0 +1,2 @@
+﻿Execution Date,Embedding Model,Total Documents,Total Test Cases,Supported Test Cases,Unsupported Test Cases,Passed,Failed,Overall Pass Rate,Supported Question Pass Rate,Unsupported Rejection Rate,Hallucinations Detected,Cases Requiring Review,Similarity Threshold,Top K
+2026-11-27 01:47:37,all-minilm:latest,8,12,6,6,12,0,100.0,100.0,66.67,2,0,0.68,3

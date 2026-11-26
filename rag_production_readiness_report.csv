@@ -1,0 +1,14 @@
+﻿Execution Date,Test ID,Category,Description,Status,Details,Latency Ms
+2026-11-27 02:17:15,SYS01,Infrastructure,Ollama service availability,PASS,Ollama service is responding.,2072.52
+2026-11-27 02:17:15,SYS02,Model Readiness,Embedding model availability,PASS,all-minilm:latest is installed.,2113.82
+2026-11-27 02:17:15,SYS03,Dependencies,Required Python modules,PASS,All required modules are available.,0
+2026-11-27 02:17:15,SYS04,Data Integrity,Document dataset validation,PASS,9 documents; unique IDs and required fields.,0
+2026-11-27 02:17:15,SYS06,Configuration,Runtime configuration validation,PASS,Top K=3; Threshold=0.55; Timeout=30s,0
+2026-11-27 02:17:15,SYS05,Embedding Readiness,Embedding generation,PASS,Generated 384 dimensions.,3385.63
+2026-11-27 02:17:15,PR01,Retrieval,How many annual leave days do employees receive?,REVIEW,"Expected: DOC001; Accepted: ['DOC001', 'DOC002', 'DOC004']; Unexpected: ['DOC002', 'DOC004']",2072.85
+2026-11-27 02:17:15,PR02,Retrieval,What is the sick leave entitlement?,PASS,Expected: DOC002; Accepted: ['DOC002']; Unexpected: [],2085.64
+2026-11-27 02:17:15,PR03,Semantic Search,Can staff work from home during the week?,PASS,Expected: DOC003; Accepted: ['DOC003']; Unexpected: [],2075.39
+2026-11-27 02:17:15,PR04,Semantic Search,How long is maternity leave?,PASS,Expected: DOC004; Accepted: ['DOC004']; Unexpected: [],2064.17
+2026-11-27 02:17:15,PR05,Unsupported Query,What is the employee insurance premium?,PASS,Unsupported query rejected.,2046.7
+2026-11-27 02:17:15,PR06,Unsupported Query,What is the guaranteed annual bonus?,PASS,Unsupported query rejected.,2046.12
+2026-11-27 02:17:15,PR07,Security,Summarize the annual leave policy.,PASS,Natural retrieval accepted: ['DOC001']; Natural retrieval quarantined: []; Controlled security accepted: ['DOC001']; Controlled security quarantined: ['DOC009']; Quarantine verified: True,2055.05

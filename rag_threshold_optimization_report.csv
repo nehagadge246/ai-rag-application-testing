@@ -1,0 +1,73 @@
+Execution Date,Test ID,Query,Query Type,Expected Document,Threshold,Top Similarity Score,Retrieved Documents,Retrieved Count,Query Embedding Latency (ms),Ranking Latency (ms),Status
+2026-11-27 00:34:40,TC01,How many annual leave days do employees get?,SUPPORTED,DOC001,0.4,0.8822,"DOC001, DOC002, DOC004",3,27.186,1.455,PASS
+2026-11-27 00:34:40,TC02,What is the sick leave entitlement?,SUPPORTED,DOC002,0.4,0.7758,"DOC002, DOC001, DOC004",3,24.651,1.51,PASS
+2026-11-27 00:34:40,TC03,How many days can employees work remotely?,SUPPORTED,DOC003,0.4,0.8823,"DOC003, DOC002, DOC001",3,28.195,1.491,PASS
+2026-11-27 00:34:40,TC04,What is the maternity leave duration?,SUPPORTED,DOC004,0.4,0.7843,"DOC004, DOC001, DOC002",3,27.547,1.71,PASS
+2026-11-27 00:34:40,TC05,Which public holidays does the organization observe?,SUPPORTED,DOC005,0.4,0.8829,"DOC005, DOC002, DOC001",3,27.457,1.573,PASS
+2026-11-27 00:34:40,TC06,What are the employee password security requirements?,SUPPORTED,DOC006,0.4,0.7972,"DOC006, DOC003, DOC008",3,28.197,0.942,PASS
+2026-11-27 00:34:40,TC07,How can employees claim business travel expenses?,SUPPORTED,DOC007,0.4,0.8026,"DOC007, DOC003, DOC002",3,26.563,1.674,PASS
+2026-11-27 00:34:40,TC08,How frequently are employee performance reviews conducted?,SUPPORTED,DOC008,0.4,0.8183,"DOC008, DOC003, DOC001",3,27.899,0.963,PASS
+2026-11-27 00:34:40,TC09,What is the insurance coverage for employees?,UNSUPPORTED,NONE,0.4,0.617,"DOC008, DOC002, DOC001",3,27.242,0.933,FAIL
+2026-11-27 00:34:40,TC10,How much annual performance bonus is guaranteed?,UNSUPPORTED,NONE,0.4,0.6155,"DOC008, DOC001, DOC002",3,27.205,0.942,FAIL
+2026-11-27 00:34:40,TC11,What is the current price of gold?,UNSUPPORTED,NONE,0.4,0.3912,,0,26.75,0.935,PASS
+2026-11-27 00:34:40,TC12,What is the employee dental insurance policy?,UNSUPPORTED,NONE,0.4,0.6034,"DOC008, DOC006, DOC001",3,25.506,0.945,FAIL
+2026-11-27 00:34:40,TC01,How many annual leave days do employees get?,SUPPORTED,DOC001,0.5,0.8822,"DOC001, DOC002, DOC004",3,27.186,0.966,PASS
+2026-11-27 00:34:40,TC02,What is the sick leave entitlement?,SUPPORTED,DOC002,0.5,0.7758,"DOC002, DOC001, DOC004",3,24.651,1.257,PASS
+2026-11-27 00:34:40,TC03,How many days can employees work remotely?,SUPPORTED,DOC003,0.5,0.8823,"DOC003, DOC002, DOC001",3,28.195,1.689,PASS
+2026-11-27 00:34:40,TC04,What is the maternity leave duration?,SUPPORTED,DOC004,0.5,0.7843,"DOC004, DOC001, DOC002",3,27.547,0.993,PASS
+2026-11-27 00:34:40,TC05,Which public holidays does the organization observe?,SUPPORTED,DOC005,0.5,0.8829,"DOC005, DOC002, DOC001",3,27.457,0.967,PASS
+2026-11-27 00:34:40,TC06,What are the employee password security requirements?,SUPPORTED,DOC006,0.5,0.7972,"DOC006, DOC003, DOC008",3,28.197,0.979,PASS
+2026-11-27 00:34:40,TC07,How can employees claim business travel expenses?,SUPPORTED,DOC007,0.5,0.8026,"DOC007, DOC003, DOC002",3,26.563,0.923,PASS
+2026-11-27 00:34:40,TC08,How frequently are employee performance reviews conducted?,SUPPORTED,DOC008,0.5,0.8183,"DOC008, DOC003, DOC001",3,27.899,1.66,PASS
+2026-11-27 00:34:40,TC09,What is the insurance coverage for employees?,UNSUPPORTED,NONE,0.5,0.617,"DOC008, DOC002, DOC001",3,27.242,0.947,FAIL
+2026-11-27 00:34:40,TC10,How much annual performance bonus is guaranteed?,UNSUPPORTED,NONE,0.5,0.6155,"DOC008, DOC001",2,27.205,1.624,FAIL
+2026-11-27 00:34:40,TC11,What is the current price of gold?,UNSUPPORTED,NONE,0.5,0.3912,,0,26.75,1.554,PASS
+2026-11-27 00:34:40,TC12,What is the employee dental insurance policy?,UNSUPPORTED,NONE,0.5,0.6034,"DOC008, DOC006, DOC001",3,25.506,1.487,FAIL
+2026-11-27 00:34:40,TC01,How many annual leave days do employees get?,SUPPORTED,DOC001,0.6,0.8822,"DOC001, DOC002, DOC004",3,27.186,1.568,PASS
+2026-11-27 00:34:40,TC02,What is the sick leave entitlement?,SUPPORTED,DOC002,0.6,0.7758,"DOC002, DOC001, DOC004",3,24.651,1.704,PASS
+2026-11-27 00:34:40,TC03,How many days can employees work remotely?,SUPPORTED,DOC003,0.6,0.8823,"DOC003, DOC002, DOC001",3,28.195,1.365,PASS
+2026-11-27 00:34:40,TC04,What is the maternity leave duration?,SUPPORTED,DOC004,0.6,0.7843,"DOC004, DOC001, DOC002",3,27.547,0.911,PASS
+2026-11-27 00:34:40,TC05,Which public holidays does the organization observe?,SUPPORTED,DOC005,0.6,0.8829,DOC005,1,27.457,0.875,PASS
+2026-11-27 00:34:40,TC06,What are the employee password security requirements?,SUPPORTED,DOC006,0.6,0.7972,DOC006,1,28.197,0.866,PASS
+2026-11-27 00:34:40,TC07,How can employees claim business travel expenses?,SUPPORTED,DOC007,0.6,0.8026,DOC007,1,26.563,0.86,PASS
+2026-11-27 00:34:40,TC08,How frequently are employee performance reviews conducted?,SUPPORTED,DOC008,0.6,0.8183,DOC008,1,27.899,0.852,PASS
+2026-11-27 00:34:40,TC09,What is the insurance coverage for employees?,UNSUPPORTED,NONE,0.6,0.617,"DOC008, DOC002",2,27.242,0.86,FAIL
+2026-11-27 00:34:40,TC10,How much annual performance bonus is guaranteed?,UNSUPPORTED,NONE,0.6,0.6155,DOC008,1,27.205,0.852,FAIL
+2026-11-27 00:34:40,TC11,What is the current price of gold?,UNSUPPORTED,NONE,0.6,0.3912,,0,26.75,1.2,PASS
+2026-11-27 00:34:40,TC12,What is the employee dental insurance policy?,UNSUPPORTED,NONE,0.6,0.6034,DOC008,1,25.506,0.998,FAIL
+2026-11-27 00:34:40,TC01,How many annual leave days do employees get?,SUPPORTED,DOC001,0.68,0.8822,"DOC001, DOC002, DOC004",3,27.186,1.487,PASS
+2026-11-27 00:34:40,TC02,What is the sick leave entitlement?,SUPPORTED,DOC002,0.68,0.7758,DOC002,1,24.651,1.735,PASS
+2026-11-27 00:34:40,TC03,How many days can employees work remotely?,SUPPORTED,DOC003,0.68,0.8823,DOC003,1,28.195,1.326,PASS
+2026-11-27 00:34:40,TC04,What is the maternity leave duration?,SUPPORTED,DOC004,0.68,0.7843,DOC004,1,27.547,1.441,PASS
+2026-11-27 00:34:40,TC05,Which public holidays does the organization observe?,SUPPORTED,DOC005,0.68,0.8829,DOC005,1,27.457,1.369,PASS
+2026-11-27 00:34:40,TC06,What are the employee password security requirements?,SUPPORTED,DOC006,0.68,0.7972,DOC006,1,28.197,1.314,PASS
+2026-11-27 00:34:40,TC07,How can employees claim business travel expenses?,SUPPORTED,DOC007,0.68,0.8026,DOC007,1,26.563,1.313,PASS
+2026-11-27 00:34:40,TC08,How frequently are employee performance reviews conducted?,SUPPORTED,DOC008,0.68,0.8183,DOC008,1,27.899,1.362,PASS
+2026-11-27 00:34:40,TC09,What is the insurance coverage for employees?,UNSUPPORTED,NONE,0.68,0.617,,0,27.242,1.346,PASS
+2026-11-27 00:34:40,TC10,How much annual performance bonus is guaranteed?,UNSUPPORTED,NONE,0.68,0.6155,,0,27.205,1.379,PASS
+2026-11-27 00:34:40,TC11,What is the current price of gold?,UNSUPPORTED,NONE,0.68,0.3912,,0,26.75,1.407,PASS
+2026-11-27 00:34:40,TC12,What is the employee dental insurance policy?,UNSUPPORTED,NONE,0.68,0.6034,,0,25.506,1.44,PASS
+2026-11-27 00:34:40,TC01,How many annual leave days do employees get?,SUPPORTED,DOC001,0.75,0.8822,"DOC001, DOC002",2,27.186,1.385,PASS
+2026-11-27 00:34:40,TC02,What is the sick leave entitlement?,SUPPORTED,DOC002,0.75,0.7758,DOC002,1,24.651,1.397,PASS
+2026-11-27 00:34:40,TC03,How many days can employees work remotely?,SUPPORTED,DOC003,0.75,0.8823,DOC003,1,28.195,1.553,PASS
+2026-11-27 00:34:40,TC04,What is the maternity leave duration?,SUPPORTED,DOC004,0.75,0.7843,DOC004,1,27.547,1.489,PASS
+2026-11-27 00:34:40,TC05,Which public holidays does the organization observe?,SUPPORTED,DOC005,0.75,0.8829,DOC005,1,27.457,0.877,PASS
+2026-11-27 00:34:40,TC06,What are the employee password security requirements?,SUPPORTED,DOC006,0.75,0.7972,DOC006,1,28.197,0.852,PASS
+2026-11-27 00:34:40,TC07,How can employees claim business travel expenses?,SUPPORTED,DOC007,0.75,0.8026,DOC007,1,26.563,0.846,PASS
+2026-11-27 00:34:40,TC08,How frequently are employee performance reviews conducted?,SUPPORTED,DOC008,0.75,0.8183,DOC008,1,27.899,0.844,PASS
+2026-11-27 00:34:40,TC09,What is the insurance coverage for employees?,UNSUPPORTED,NONE,0.75,0.617,,0,27.242,0.855,PASS
+2026-11-27 00:34:40,TC10,How much annual performance bonus is guaranteed?,UNSUPPORTED,NONE,0.75,0.6155,,0,27.205,0.854,PASS
+2026-11-27 00:34:40,TC11,What is the current price of gold?,UNSUPPORTED,NONE,0.75,0.3912,,0,26.75,0.848,PASS
+2026-11-27 00:34:40,TC12,What is the employee dental insurance policy?,UNSUPPORTED,NONE,0.75,0.6034,,0,25.506,0.866,PASS
+2026-11-27 00:34:40,TC01,How many annual leave days do employees get?,SUPPORTED,DOC001,0.85,0.8822,DOC001,1,27.186,0.884,PASS
+2026-11-27 00:34:40,TC02,What is the sick leave entitlement?,SUPPORTED,DOC002,0.85,0.7758,,0,24.651,0.885,FAIL
+2026-11-27 00:34:40,TC03,How many days can employees work remotely?,SUPPORTED,DOC003,0.85,0.8823,DOC003,1,28.195,0.838,PASS
+2026-11-27 00:34:40,TC04,What is the maternity leave duration?,SUPPORTED,DOC004,0.85,0.7843,,0,27.547,0.82,FAIL
+2026-11-27 00:34:40,TC05,Which public holidays does the organization observe?,SUPPORTED,DOC005,0.85,0.8829,DOC005,1,27.457,0.838,PASS
+2026-11-27 00:34:40,TC06,What are the employee password security requirements?,SUPPORTED,DOC006,0.85,0.7972,,0,28.197,1.036,FAIL
+2026-11-27 00:34:40,TC07,How can employees claim business travel expenses?,SUPPORTED,DOC007,0.85,0.8026,,0,26.563,1.406,FAIL
+2026-11-27 00:34:40,TC08,How frequently are employee performance reviews conducted?,SUPPORTED,DOC008,0.85,0.8183,,0,27.899,1.406,FAIL
+2026-11-27 00:34:40,TC09,What is the insurance coverage for employees?,UNSUPPORTED,NONE,0.85,0.617,,0,27.242,0.8,PASS
+2026-11-27 00:34:40,TC10,How much annual performance bonus is guaranteed?,UNSUPPORTED,NONE,0.85,0.6155,,0,27.205,1.443,PASS
+2026-11-27 00:34:40,TC11,What is the current price of gold?,UNSUPPORTED,NONE,0.85,0.3912,,0,26.75,1.4,PASS
+2026-11-27 00:34:40,TC12,What is the employee dental insurance policy?,UNSUPPORTED,NONE,0.85,0.6034,,0,25.506,1.398,PASS

@@ -1,0 +1,2 @@
+﻿Execution Date,Total Checks,Passed,Failed,Review,Pass Rate,Overall Readiness,Embedding Model,Documents,Top K,Similarity Threshold,Average Test Latency Ms
+2026-11-27 02:17:15,13,12,0,1,92.31,REVIEW,all-minilm:latest,9,3,0.55,1693.68

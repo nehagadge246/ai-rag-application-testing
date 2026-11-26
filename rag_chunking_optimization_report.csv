@@ -1,0 +1,97 @@
+Test ID,Query,Chunk Size,Overlap,Expected Document,Retrieved Documents,Top Chunk Similarity,Status,Hit,Precision At K,Reciprocal Rank,Top 1 Correct,Retrieval Latency Ms
+TC01,How many annual leave days do employees receive?,100,0,DOC001,"DOC001, DOC002",0.8891,PASS,1,0.5,1.0,1,28.05
+TC02,How many sick leave days are allowed?,100,0,DOC002,"DOC002, DOC001, DOC004",0.8257,PASS,1,0.3333,1.0,1,28.23
+TC03,How many days can employees work remotely?,100,0,DOC003,"DOC003, DOC002, DOC001",0.8611,PASS,1,0.3333,1.0,1,29.64
+TC04,How long is parental leave?,100,0,DOC004,"DOC004, DOC001, DOC002",0.8186,PASS,1,0.3333,1.0,1,25.68
+TC05,How many public holidays are observed?,100,0,DOC005,"DOC005, DOC002, DOC004",0.8249,PASS,1,0.3333,1.0,1,26.84
+TC06,What are the password security requirements?,100,0,DOC006,"DOC006, DOC003",0.7198,PASS,1,0.5,1.0,1,26.72
+TC07,How are business travel expenses reimbursed?,100,0,DOC007,"DOC007, DOC001",0.8668,PASS,1,0.5,1.0,1,28.23
+TC08,How often are performance reviews conducted?,100,0,DOC008,"DOC008, DOC007, DOC005",0.8085,PASS,1,0.3333,1.0,1,26.44
+TC09,What is the employee bonus policy?,100,0,UNSUPPORTED,"DOC004, DOC001, DOC006",0.6362,REVIEW,0,0.0,0.0,0,27.41
+TC10,What health insurance coverage is provided?,100,0,UNSUPPORTED,"DOC007, DOC002",0.4834,REVIEW,0,0.0,0.0,0,28.47
+TC11,What is the current gold price?,100,0,UNSUPPORTED,"DOC005, DOC008, DOC007",0.4044,REVIEW,0,0.0,0.0,0,29.12
+TC12,Where can employees park their vehicles?,100,0,UNSUPPORTED,"DOC006, DOC001, DOC003",0.5647,REVIEW,0,0.0,0.0,0,27.62
+TC01,How many annual leave days do employees receive?,100,20,DOC001,"DOC001, DOC002, DOC004",0.8891,PASS,1,0.3333,1.0,1,27.85
+TC02,How many sick leave days are allowed?,100,20,DOC002,"DOC002, DOC001, DOC004",0.8257,PASS,1,0.3333,1.0,1,26.26
+TC03,How many days can employees work remotely?,100,20,DOC003,"DOC003, DOC002",0.8611,PASS,1,0.5,1.0,1,27.83
+TC04,How long is parental leave?,100,20,DOC004,"DOC004, DOC001, DOC002",0.8186,PASS,1,0.3333,1.0,1,25.76
+TC05,How many public holidays are observed?,100,20,DOC005,"DOC005, DOC002, DOC004",0.8249,PASS,1,0.3333,1.0,1,25.97
+TC06,What are the password security requirements?,100,20,DOC006,"DOC006, DOC003",0.7198,PASS,1,0.5,1.0,1,28.37
+TC07,How are business travel expenses reimbursed?,100,20,DOC007,"DOC007, DOC001",0.8668,PASS,1,0.5,1.0,1,26.8
+TC08,How often are performance reviews conducted?,100,20,DOC008,"DOC008, DOC005, DOC007",0.8085,PASS,1,0.3333,1.0,1,27.28
+TC09,What is the employee bonus policy?,100,20,UNSUPPORTED,"DOC001, DOC004",0.6828,REVIEW,0,0.0,0.0,0,25.81
+TC10,What health insurance coverage is provided?,100,20,UNSUPPORTED,"DOC001, DOC007",0.4888,REVIEW,0,0.0,0.0,0,25.32
+TC11,What is the current gold price?,100,20,UNSUPPORTED,"DOC005, DOC008",0.4104,REVIEW,0,0.0,0.0,0,26.33
+TC12,Where can employees park their vehicles?,100,20,UNSUPPORTED,"DOC006, DOC003",0.5664,REVIEW,0,0.0,0.0,0,27.16
+TC01,How many annual leave days do employees receive?,200,0,DOC001,"DOC001, DOC002, DOC004",0.8797,PASS,1,0.3333,1.0,1,29.94
+TC02,How many sick leave days are allowed?,200,0,DOC002,"DOC002, DOC001, DOC004",0.8154,PASS,1,0.3333,1.0,1,30.44
+TC03,How many days can employees work remotely?,200,0,DOC003,"DOC003, DOC002, DOC001",0.8649,PASS,1,0.3333,1.0,1,27.72
+TC04,How long is parental leave?,200,0,DOC004,"DOC004, DOC001, DOC002",0.8194,PASS,1,0.3333,1.0,1,27.14
+TC05,How many public holidays are observed?,200,0,DOC005,"DOC005, DOC002, DOC001",0.7883,PASS,1,0.3333,1.0,1,27.8
+TC06,What are the password security requirements?,200,0,DOC006,"DOC006, DOC003, DOC007",0.7307,PASS,1,0.3333,1.0,1,25.45
+TC07,How are business travel expenses reimbursed?,200,0,DOC007,"DOC007, DOC002, DOC005",0.8332,PASS,1,0.3333,1.0,1,29.84
+TC08,How often are performance reviews conducted?,200,0,DOC008,"DOC008, DOC005, DOC007",0.7923,PASS,1,0.3333,1.0,1,26.83
+TC09,What is the employee bonus policy?,200,0,UNSUPPORTED,"DOC001, DOC006, DOC008",0.6406,REVIEW,0,0.0,0.0,0,24.6
+TC10,What health insurance coverage is provided?,200,0,UNSUPPORTED,"DOC007, DOC005, DOC004",0.511,REVIEW,0,0.0,0.0,0,28.85
+TC11,What is the current gold price?,200,0,UNSUPPORTED,"DOC005, DOC007, DOC008",0.3882,REVIEW,0,0.0,0.0,0,29.45
+TC12,Where can employees park their vehicles?,200,0,UNSUPPORTED,"DOC003, DOC001, DOC002",0.5513,REVIEW,0,0.0,0.0,0,29.77
+TC01,How many annual leave days do employees receive?,200,40,DOC001,"DOC001, DOC002, DOC004",0.8797,PASS,1,0.3333,1.0,1,27.43
+TC02,How many sick leave days are allowed?,200,40,DOC002,"DOC002, DOC001, DOC004",0.8154,PASS,1,0.3333,1.0,1,28.01
+TC03,How many days can employees work remotely?,200,40,DOC003,"DOC003, DOC002, DOC001",0.8649,PASS,1,0.3333,1.0,1,25.95
+TC04,How long is parental leave?,200,40,DOC004,"DOC004, DOC001, DOC002",0.8194,PASS,1,0.3333,1.0,1,27.42
+TC05,How many public holidays are observed?,200,40,DOC005,"DOC005, DOC002, DOC001",0.7883,PASS,1,0.3333,1.0,1,28.0
+TC06,What are the password security requirements?,200,40,DOC006,"DOC006, DOC003, DOC007",0.7307,PASS,1,0.3333,1.0,1,28.98
+TC07,How are business travel expenses reimbursed?,200,40,DOC007,"DOC007, DOC002, DOC005",0.8332,PASS,1,0.3333,1.0,1,27.99
+TC08,How often are performance reviews conducted?,200,40,DOC008,"DOC008, DOC005, DOC007",0.7923,PASS,1,0.3333,1.0,1,25.32
+TC09,What is the employee bonus policy?,200,40,UNSUPPORTED,"DOC001, DOC006, DOC008",0.6406,REVIEW,0,0.0,0.0,0,24.83
+TC10,What health insurance coverage is provided?,200,40,UNSUPPORTED,"DOC007, DOC005, DOC004",0.511,REVIEW,0,0.0,0.0,0,27.02
+TC11,What is the current gold price?,200,40,UNSUPPORTED,"DOC005, DOC007, DOC008",0.3882,REVIEW,0,0.0,0.0,0,26.51
+TC12,Where can employees park their vehicles?,200,40,UNSUPPORTED,"DOC003, DOC001, DOC002",0.5513,REVIEW,0,0.0,0.0,0,25.65
+TC01,How many annual leave days do employees receive?,300,0,DOC001,"DOC001, DOC002, DOC004",0.8797,PASS,1,0.3333,1.0,1,26.68
+TC02,How many sick leave days are allowed?,300,0,DOC002,"DOC002, DOC001, DOC004",0.8154,PASS,1,0.3333,1.0,1,28.11
+TC03,How many days can employees work remotely?,300,0,DOC003,"DOC003, DOC002, DOC001",0.8649,PASS,1,0.3333,1.0,1,29.01
+TC04,How long is parental leave?,300,0,DOC004,"DOC004, DOC001, DOC002",0.8194,PASS,1,0.3333,1.0,1,24.84
+TC05,How many public holidays are observed?,300,0,DOC005,"DOC005, DOC002, DOC001",0.7883,PASS,1,0.3333,1.0,1,29.03
+TC06,What are the password security requirements?,300,0,DOC006,"DOC006, DOC003, DOC007",0.7307,PASS,1,0.3333,1.0,1,26.59
+TC07,How are business travel expenses reimbursed?,300,0,DOC007,"DOC007, DOC002, DOC005",0.8332,PASS,1,0.3333,1.0,1,28.71
+TC08,How often are performance reviews conducted?,300,0,DOC008,"DOC008, DOC005, DOC007",0.7923,PASS,1,0.3333,1.0,1,27.48
+TC09,What is the employee bonus policy?,300,0,UNSUPPORTED,"DOC001, DOC006, DOC008",0.6406,REVIEW,0,0.0,0.0,0,26.36
+TC10,What health insurance coverage is provided?,300,0,UNSUPPORTED,"DOC007, DOC005, DOC004",0.511,REVIEW,0,0.0,0.0,0,26.63
+TC11,What is the current gold price?,300,0,UNSUPPORTED,"DOC005, DOC007, DOC008",0.3882,REVIEW,0,0.0,0.0,0,26.22
+TC12,Where can employees park their vehicles?,300,0,UNSUPPORTED,"DOC003, DOC001, DOC002",0.5513,REVIEW,0,0.0,0.0,0,27.15
+TC01,How many annual leave days do employees receive?,300,60,DOC001,"DOC001, DOC002, DOC004",0.8797,PASS,1,0.3333,1.0,1,29.3
+TC02,How many sick leave days are allowed?,300,60,DOC002,"DOC002, DOC001, DOC004",0.8154,PASS,1,0.3333,1.0,1,28.49
+TC03,How many days can employees work remotely?,300,60,DOC003,"DOC003, DOC002, DOC001",0.8649,PASS,1,0.3333,1.0,1,26.16
+TC04,How long is parental leave?,300,60,DOC004,"DOC004, DOC001, DOC002",0.8194,PASS,1,0.3333,1.0,1,25.71
+TC05,How many public holidays are observed?,300,60,DOC005,"DOC005, DOC002, DOC001",0.7883,PASS,1,0.3333,1.0,1,26.44
+TC06,What are the password security requirements?,300,60,DOC006,"DOC006, DOC003, DOC007",0.7307,PASS,1,0.3333,1.0,1,26.87
+TC07,How are business travel expenses reimbursed?,300,60,DOC007,"DOC007, DOC002, DOC005",0.8332,PASS,1,0.3333,1.0,1,29.94
+TC08,How often are performance reviews conducted?,300,60,DOC008,"DOC008, DOC005, DOC007",0.7923,PASS,1,0.3333,1.0,1,27.18
+TC09,What is the employee bonus policy?,300,60,UNSUPPORTED,"DOC001, DOC006, DOC008",0.6406,REVIEW,0,0.0,0.0,0,27.37
+TC10,What health insurance coverage is provided?,300,60,UNSUPPORTED,"DOC007, DOC005, DOC004",0.511,REVIEW,0,0.0,0.0,0,27.42
+TC11,What is the current gold price?,300,60,UNSUPPORTED,"DOC005, DOC007, DOC008",0.3882,REVIEW,0,0.0,0.0,0,26.67
+TC12,Where can employees park their vehicles?,300,60,UNSUPPORTED,"DOC003, DOC001, DOC002",0.5513,REVIEW,0,0.0,0.0,0,28.31
+TC01,How many annual leave days do employees receive?,500,0,DOC001,"DOC001, DOC002, DOC004",0.8797,PASS,1,0.3333,1.0,1,29.47
+TC02,How many sick leave days are allowed?,500,0,DOC002,"DOC002, DOC001, DOC004",0.8154,PASS,1,0.3333,1.0,1,31.23
+TC03,How many days can employees work remotely?,500,0,DOC003,"DOC003, DOC002, DOC001",0.8649,PASS,1,0.3333,1.0,1,27.95
+TC04,How long is parental leave?,500,0,DOC004,"DOC004, DOC001, DOC002",0.8194,PASS,1,0.3333,1.0,1,28.56
+TC05,How many public holidays are observed?,500,0,DOC005,"DOC005, DOC002, DOC001",0.7883,PASS,1,0.3333,1.0,1,27.04
+TC06,What are the password security requirements?,500,0,DOC006,"DOC006, DOC003, DOC007",0.7307,PASS,1,0.3333,1.0,1,26.37
+TC07,How are business travel expenses reimbursed?,500,0,DOC007,"DOC007, DOC002, DOC005",0.8332,PASS,1,0.3333,1.0,1,29.06
+TC08,How often are performance reviews conducted?,500,0,DOC008,"DOC008, DOC005, DOC007",0.7923,PASS,1,0.3333,1.0,1,27.54
+TC09,What is the employee bonus policy?,500,0,UNSUPPORTED,"DOC001, DOC006, DOC008",0.6406,REVIEW,0,0.0,0.0,0,27.27
+TC10,What health insurance coverage is provided?,500,0,UNSUPPORTED,"DOC007, DOC005, DOC004",0.511,REVIEW,0,0.0,0.0,0,26.82
+TC11,What is the current gold price?,500,0,UNSUPPORTED,"DOC005, DOC007, DOC008",0.3882,REVIEW,0,0.0,0.0,0,28.91
+TC12,Where can employees park their vehicles?,500,0,UNSUPPORTED,"DOC003, DOC001, DOC002",0.5513,REVIEW,0,0.0,0.0,0,28.68
+TC01,How many annual leave days do employees receive?,500,100,DOC001,"DOC001, DOC002, DOC004",0.8797,PASS,1,0.3333,1.0,1,28.03
+TC02,How many sick leave days are allowed?,500,100,DOC002,"DOC002, DOC001, DOC004",0.8154,PASS,1,0.3333,1.0,1,29.28
+TC03,How many days can employees work remotely?,500,100,DOC003,"DOC003, DOC002, DOC001",0.8649,PASS,1,0.3333,1.0,1,27.98
+TC04,How long is parental leave?,500,100,DOC004,"DOC004, DOC001, DOC002",0.8194,PASS,1,0.3333,1.0,1,25.36
+TC05,How many public holidays are observed?,500,100,DOC005,"DOC005, DOC002, DOC001",0.7883,PASS,1,0.3333,1.0,1,25.1
+TC06,What are the password security requirements?,500,100,DOC006,"DOC006, DOC003, DOC007",0.7307,PASS,1,0.3333,1.0,1,28.94
+TC07,How are business travel expenses reimbursed?,500,100,DOC007,"DOC007, DOC002, DOC005",0.8332,PASS,1,0.3333,1.0,1,32.83
+TC08,How often are performance reviews conducted?,500,100,DOC008,"DOC008, DOC005, DOC007",0.7923,PASS,1,0.3333,1.0,1,29.03
+TC09,What is the employee bonus policy?,500,100,UNSUPPORTED,"DOC001, DOC006, DOC008",0.6406,REVIEW,0,0.0,0.0,0,29.14
+TC10,What health insurance coverage is provided?,500,100,UNSUPPORTED,"DOC007, DOC005, DOC004",0.511,REVIEW,0,0.0,0.0,0,29.27
+TC11,What is the current gold price?,500,100,UNSUPPORTED,"DOC005, DOC007, DOC008",0.3882,REVIEW,0,0.0,0.0,0,26.75
+TC12,Where can employees park their vehicles?,500,100,UNSUPPORTED,"DOC003, DOC001, DOC002",0.5513,REVIEW,0,0.0,0.0,0,28.54

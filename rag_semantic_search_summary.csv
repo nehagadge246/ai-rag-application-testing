@@ -1,0 +1,4 @@
+Execution Date,Top K,Total Test Cases,Supported Queries,Unsupported Queries,Precision At K,Recall At K,MRR,Hit Rate,Top 1 Accuracy,Unsupported Rejection Rate,Average Query Embedding Latency (ms)
+2026-11-27 00:37:23,1,12,9,3,0.8889,0.8889,0.8889,0.8889,0.8889,0.0,29.614
+2026-11-27 00:37:23,3,12,9,3,0.3333,1.0,0.9259,1.0,0.8889,0.0,29.614
+2026-11-27 00:37:23,5,12,9,3,0.2,1.0,0.9259,1.0,0.8889,0.0,29.614

@@ -1,0 +1,13 @@
+﻿Test ID,Category,Query,Answer Type,Expected Document,Retrieved Documents,Top Similarity,Expected Document Found,Expected Keywords,Matched Keywords,Keyword Coverage Percent,Fabricated Answer,Numeric Conflict Detected,Conflicting Number,Status,Passed,Latency Ms
+TC01,Supported,How many annual leave days do employees receive?,Supported question,DOC001,"DOC001, DOC002, DOC004",0.7322,True,"15, annual leave","15, annual leave",100.0,,,,PASS,True,12.59
+TC02,Supported,How many sick leave days are available?,Supported question,DOC002,"DOC002, DOC001, DOC004",0.7592,True,"10, sick leave","10, sick leave",100.0,,,,PASS,True,10.8
+TC03,Supported,How many days can employees work remotely?,Supported question,DOC003,"DOC003, DOC002, DOC001",0.8081,True,"2 days, manager approval","2 days, manager approval",100.0,,,,PASS,True,11.52
+TC04,Supported,How long is maternity leave?,Supported question,DOC004,"DOC004, DOC001, DOC002",0.7593,True,"26 weeks, maternity leave","26 weeks, maternity leave",100.0,,,,PASS,True,11.51
+TC05,Supported,How often are employee performance reviews conducted?,Supported question,DOC008,"DOC008, DOC001, DOC003",0.6997,True,"twice a year, performance reviews","twice a year, performance reviews",100.0,,,,PASS,True,11.08
+TC06,Supported,What is required for travel reimbursement?,Supported question,DOC007,"DOC007, DOC005, DOC002",0.7126,True,"receipts, manager approval","receipts, manager approval",100.0,,,,PASS,True,12.24
+TC07,Unsupported,How much annual performance bonus does every employee receive?,Unsupported question,,"DOC008, DOC001, DOC002",0.4239,False,,,0.0,,,,REJECTED,True,12.61
+TC08,Unsupported,Does the company provide free health insurance for family members?,Unsupported question,,"DOC002, DOC004, DOC006",0.2122,False,,,0.0,,,,REJECTED,True,13.99
+TC09,Unsupported,How many work-from-home days are guaranteed without approval?,Unsupported question,,"DOC003, DOC001, DOC002",0.5066,False,,,0.0,,,,REJECTED,True,14.45
+TC10,Unsupported,What is the exact salary increment percentage for every employee?,Unsupported question,,"DOC001, DOC002, DOC006",0.1974,False,,,0.0,,,,REJECTED,True,15.74
+TC11,Unsupported,How many paid annual leave days are provided?,Fabricated numeric answer,DOC001,"DOC001, DOC002, DOC004",0.6869,True,"15, annual leave",annual leave,50.0,Employees receive 30 annual leave days.,True,30,HALLUCINATION_DETECTED,True,11.5
+TC12,Unsupported,How long is maternity leave?,Fabricated numeric answer,DOC004,"DOC004, DOC001, DOC002",0.7593,True,"26 weeks, maternity leave",maternity leave,50.0,Employees receive 52 weeks of maternity leave.,True,52,HALLUCINATION_DETECTED,True,10.9
