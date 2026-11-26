@@ -1,0 +1,6 @@
+﻿Run,Question,Generated Answer,Response Time (sec),Response Length,Similarity (%),Status,Error
+1,How many annual leave days do employees receive?,Employees receive 15 annual leave days.,3.696,39,100.0,PASS,
+2,How many annual leave days do employees receive?,Employees receive 15 annual leave days.,3.156,39,100.0,PASS,
+3,How many annual leave days do employees receive?,Employees receive 15 annual leave days.,3.162,39,100.0,PASS,
+4,How many annual leave days do employees receive?,Employees receive 15 annual leave days.,3.158,39,100.0,PASS,
+5,How many annual leave days do employees receive?,Employees receive 15 annual leave days.,3.127,39,100.0,PASS,
