@@ -1,0 +1,16 @@
+Scenario,Question,Expected Supported,Expected Document,Best Document,Best Similarity,Retrieved Documents,Predicted Supported,Retrieval Status,Latency Seconds,Status,Error
+Normal Query,How many annual leave days do employees receive?,1,DOC001,DOC001,0.908,"DOC001, DOC002, DOC004",1,RETRIEVED,2.077,PASS,
+Empty Query,,N/A,N/A,N/A,0.0,N/A,N/A,SKIPPED,0.0,PASS,Invalid input correctly rejected
+Whitespace Query,     ,N/A,N/A,N/A,0.0,N/A,N/A,SKIPPED,0.0,PASS,Invalid input correctly rejected
+Very Short Query,Leave?,1,DOC001,DOC001,0.593,"DOC001, DOC004, DOC002",0,REJECTED,2.072,FAIL,
+Misspelled Query,How meny anuel leev dayz do employes get?,1,DOC001,DOC001,0.5615,"DOC001, DOC002, DOC003",0,REJECTED,2.104,FAIL,
+Paraphrased Query,How much time off can staff take each year?,1,DOC001,DOC001,0.7439,"DOC001, DOC002, DOC004",1,RETRIEVED,2.076,PASS,
+Ambiguous Query,What is the leave policy?,1,N/A,DOC001,0.6134,"DOC001, DOC004, DOC002",0,REJECTED,2.086,FAIL,
+Long Query,"I am an employee working in the company and I would like to understand the annual vacation entitlement available to me during the year, including the total number of paid leave days that I can request from my manager.",1,DOC001,DOC001,0.7766,"DOC001, DOC002, DOC004",1,RETRIEVED,2.116,PASS,
+Multiple Topic Query,Tell me about annual leave and sick leave.,1,N/A,DOC002,0.7491,"DOC002, DOC001, DOC004",1,RETRIEVED,2.078,PASS,
+Unsupported Insurance Query,Which health insurance company covers employees?,0,N/A,DOC007,0.6067,"DOC007, DOC002, DOC005",0,REJECTED,2.091,PASS,
+Unsupported Bonus Query,How much annual performance bonus is paid?,0,N/A,DOC008,0.5844,"DOC008, DOC001, DOC002",0,REJECTED,2.08,PASS,
+Unrelated Domain Query,What is the current gold market price?,0,N/A,DOC005,0.3455,"DOC005, DOC008, DOC006",0,REJECTED,2.057,PASS,
+Special Characters,Annual leave @#$% entitlement ???,1,DOC001,DOC001,0.7407,"DOC001, DOC004, DOC002",1,RETRIEVED,2.074,PASS,
+Numeric Query,15 days?,1,DOC001,DOC001,0.5922,"DOC001, DOC003, DOC002",0,REJECTED,2.079,FAIL,
+Case Variation,HOW MANY DAYS CAN EMPLOYEES WORK REMOTELY?,1,DOC003,DOC003,0.8858,"DOC003, DOC001, DOC002",1,RETRIEVED,2.065,PASS,
