@@ -1,0 +1,11 @@
+Test ID,Query,Expected Document,Baseline Results,Reranked Results,Baseline Top1,Reranked Top1,Baseline MRR,Reranked MRR,Baseline Precision@3,Reranked Precision@3,Baseline Recall@3,Reranked Recall@3,Embedding Latency (ms),Baseline Ranking Latency (ms),Reranking Latency (ms),Status
+TC01,How many annual leave days do employees get?,DOC001,"DOC001, DOC002, DOC004","DOC001, DOC002, DOC004",1,1,1.0,1.0,0.3333,0.3333,1,1,29.671,1.429,0.099,PASS
+TC02,What is the sick leave entitlement?,DOC002,"DOC002, DOC001, DOC004","DOC002, DOC001, DOC004",1,1,1.0,1.0,0.3333,0.3333,1,1,26.45,0.869,0.031,PASS
+TC03,How many days can employees work remotely?,DOC003,"DOC003, DOC002, DOC001","DOC003, DOC002, DOC001",1,1,1.0,1.0,0.3333,0.3333,1,1,24.327,1.436,0.043,PASS
+TC04,What is the maternity leave duration?,DOC004,"DOC004, DOC001, DOC002","DOC004, DOC001, DOC002",1,1,1.0,1.0,0.3333,0.3333,1,1,25.683,0.937,0.032,PASS
+TC05,Which public holidays does the organization observe?,DOC005,"DOC005, DOC002, DOC001","DOC005, DOC002, DOC001",1,1,1.0,1.0,0.3333,0.3333,1,1,27.683,1.508,0.042,PASS
+TC06,What are the employee password security requirements?,DOC006,"DOC006, DOC003, DOC008","DOC006, DOC003, DOC008",1,1,1.0,1.0,0.3333,0.3333,1,1,26.916,0.932,0.034,PASS
+TC07,How can employees claim business travel expenses?,DOC007,"DOC007, DOC003, DOC002","DOC007, DOC003, DOC002",1,1,1.0,1.0,0.3333,0.3333,1,1,26.402,1.514,0.054,PASS
+TC08,How frequently are employee performance reviews conducted?,DOC008,"DOC008, DOC003, DOC001","DOC008, DOC003, DOC001",1,1,1.0,1.0,0.3333,0.3333,1,1,25.402,1.519,0.041,PASS
+TC09,What is the parental leave entitlement?,DOC004,"DOC004, DOC001, DOC002","DOC004, DOC001, DOC002",1,1,1.0,1.0,0.3333,0.3333,1,1,27.481,1.542,0.041,PASS
+TC10,How do employees request time off for illness?,DOC002,"DOC002, DOC001, DOC003","DOC002, DOC001, DOC003",1,1,1.0,1.0,0.3333,0.3333,1,1,27.796,0.925,0.033,PASS
