@@ -1,2 +1,2 @@
 ﻿Execution Date,Embedding Model,Documents,Test Cases,Configurations Tested,Best Top K,Best Threshold,Best Precision At K,Best Recall At K,Best MRR,Best F1 Score,Unsupported Rejection Rate,Average Retrieval Latency Ms,Selection Method,Evaluation Note
-2026-11-27 02:43:12,all-minilm:latest,8,6,28,1,0.4,1.0,1.0,1.0,1.0,100.0,2059.32,"Highest F1, then unsupported rejection, MRR and precision",Best configuration on a small controlled dataset; not a production guarantee.
+2026-11-27 03:20:26,all-minilm:latest,8,6,28,1,0.4,1.0,1.0,1.0,1.0,100.0,2068.68,"Highest F1, then unsupported rejection, MRR and precision",Best configuration on a small controlled dataset; not a production guarantee.

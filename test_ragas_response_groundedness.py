@@ -33,7 +33,7 @@ retrieved_contexts = [
 ]
 
 # Generated response supported by context
-response = "Employees receive 20 annual leave days per year."
+response = "Employees receive 0 annual leave days per year."
 
 # Evaluate response groundedness
 result = response_groundedness.score(

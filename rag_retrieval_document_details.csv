@@ -1,0 +1,463 @@
+﻿Execution Date,Top K,Similarity Threshold,Test Case ID,Query,Query Type,Expected Document,Rank,Retrieved Document,Similarity Score,Accepted,Is Expected Document,Is False Positive,Latency Ms
+2026-11-27 03:20:26,1,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.74
+2026-11-27 03:20:26,1,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2070.07
+2026-11-27 03:20:26,1,0.4,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2042.0
+2026-11-27 03:20:26,1,0.4,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2075.18
+2026-11-27 03:20:26,1,0.4,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2058.68
+2026-11-27 03:20:26,1,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2081.44
+2026-11-27 03:20:26,1,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.74
+2026-11-27 03:20:26,1,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2070.07
+2026-11-27 03:20:26,1,0.5,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2042.0
+2026-11-27 03:20:26,1,0.5,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2075.18
+2026-11-27 03:20:26,1,0.5,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2058.68
+2026-11-27 03:20:26,1,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2081.44
+2026-11-27 03:20:26,1,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.74
+2026-11-27 03:20:26,1,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2070.07
+2026-11-27 03:20:26,1,0.55,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2042.0
+2026-11-27 03:20:26,1,0.55,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2075.18
+2026-11-27 03:20:26,1,0.55,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2058.68
+2026-11-27 03:20:26,1,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2081.44
+2026-11-27 03:20:26,1,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.74
+2026-11-27 03:20:26,1,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2070.07
+2026-11-27 03:20:26,1,0.6,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2042.0
+2026-11-27 03:20:26,1,0.6,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2075.18
+2026-11-27 03:20:26,1,0.6,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2058.68
+2026-11-27 03:20:26,1,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2081.44
+2026-11-27 03:20:26,1,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.74
+2026-11-27 03:20:26,1,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2070.07
+2026-11-27 03:20:26,1,0.65,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2042.0
+2026-11-27 03:20:26,1,0.65,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2075.18
+2026-11-27 03:20:26,1,0.65,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2058.68
+2026-11-27 03:20:26,1,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2081.44
+2026-11-27 03:20:26,1,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.74
+2026-11-27 03:20:26,1,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2070.07
+2026-11-27 03:20:26,1,0.7,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2042.0
+2026-11-27 03:20:26,1,0.7,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2075.18
+2026-11-27 03:20:26,1,0.7,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2058.68
+2026-11-27 03:20:26,1,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2081.44
+2026-11-27 03:20:26,1,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.74
+2026-11-27 03:20:26,1,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2070.07
+2026-11-27 03:20:26,1,0.75,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2042.0
+2026-11-27 03:20:26,1,0.75,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2075.18
+2026-11-27 03:20:26,1,0.75,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2058.68
+2026-11-27 03:20:26,1,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2081.44
+2026-11-27 03:20:26,2,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.83
+2026-11-27 03:20:26,2,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2084.83
+2026-11-27 03:20:26,2,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2041.89
+2026-11-27 03:20:26,2,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,True,False,True,2041.89
+2026-11-27 03:20:26,2,0.4,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2042.15
+2026-11-27 03:20:26,2,0.4,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2042.15
+2026-11-27 03:20:26,2,0.4,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2097.12
+2026-11-27 03:20:26,2,0.4,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,True,False,True,2097.12
+2026-11-27 03:20:26,2,0.4,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.4,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.83
+2026-11-27 03:20:26,2,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2084.83
+2026-11-27 03:20:26,2,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2041.89
+2026-11-27 03:20:26,2,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2041.89
+2026-11-27 03:20:26,2,0.5,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2042.15
+2026-11-27 03:20:26,2,0.5,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2042.15
+2026-11-27 03:20:26,2,0.5,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2097.12
+2026-11-27 03:20:26,2,0.5,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2097.12
+2026-11-27 03:20:26,2,0.5,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.5,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.83
+2026-11-27 03:20:26,2,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2084.83
+2026-11-27 03:20:26,2,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2041.89
+2026-11-27 03:20:26,2,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2041.89
+2026-11-27 03:20:26,2,0.55,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2042.15
+2026-11-27 03:20:26,2,0.55,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2042.15
+2026-11-27 03:20:26,2,0.55,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2097.12
+2026-11-27 03:20:26,2,0.55,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2097.12
+2026-11-27 03:20:26,2,0.55,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.55,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.83
+2026-11-27 03:20:26,2,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2084.83
+2026-11-27 03:20:26,2,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2041.89
+2026-11-27 03:20:26,2,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2041.89
+2026-11-27 03:20:26,2,0.6,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2042.15
+2026-11-27 03:20:26,2,0.6,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2042.15
+2026-11-27 03:20:26,2,0.6,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2097.12
+2026-11-27 03:20:26,2,0.6,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2097.12
+2026-11-27 03:20:26,2,0.6,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.6,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.83
+2026-11-27 03:20:26,2,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2084.83
+2026-11-27 03:20:26,2,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2041.89
+2026-11-27 03:20:26,2,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2041.89
+2026-11-27 03:20:26,2,0.65,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2042.15
+2026-11-27 03:20:26,2,0.65,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2042.15
+2026-11-27 03:20:26,2,0.65,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2097.12
+2026-11-27 03:20:26,2,0.65,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2097.12
+2026-11-27 03:20:26,2,0.65,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.65,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.83
+2026-11-27 03:20:26,2,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2084.83
+2026-11-27 03:20:26,2,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2041.89
+2026-11-27 03:20:26,2,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2041.89
+2026-11-27 03:20:26,2,0.7,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2042.15
+2026-11-27 03:20:26,2,0.7,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2042.15
+2026-11-27 03:20:26,2,0.7,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2097.12
+2026-11-27 03:20:26,2,0.7,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2097.12
+2026-11-27 03:20:26,2,0.7,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.7,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2084.83
+2026-11-27 03:20:26,2,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,False,False,False,2084.83
+2026-11-27 03:20:26,2,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2041.89
+2026-11-27 03:20:26,2,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2041.89
+2026-11-27 03:20:26,2,0.75,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2042.15
+2026-11-27 03:20:26,2,0.75,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2042.15
+2026-11-27 03:20:26,2,0.75,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2097.12
+2026-11-27 03:20:26,2,0.75,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2097.12
+2026-11-27 03:20:26,2,0.75,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.75,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2069.49
+2026-11-27 03:20:26,2,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2063.31
+2026-11-27 03:20:26,2,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2063.31
+2026-11-27 03:20:26,3,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2066.21
+2026-11-27 03:20:26,3,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2079.67
+2026-11-27 03:20:26,3,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,True,False,True,2079.67
+2026-11-27 03:20:26,3,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.4,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2066.23
+2026-11-27 03:20:26,3,0.4,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.4,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.4,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2049.56
+2026-11-27 03:20:26,3,0.4,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,True,False,True,2049.56
+2026-11-27 03:20:26,3,0.4,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,True,False,True,2049.56
+2026-11-27 03:20:26,3,0.4,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.4,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.4,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2066.21
+2026-11-27 03:20:26,3,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2079.67
+2026-11-27 03:20:26,3,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.5,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2066.23
+2026-11-27 03:20:26,3,0.5,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.5,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.5,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2049.56
+2026-11-27 03:20:26,3,0.5,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.5,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.5,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.5,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.5,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2066.21
+2026-11-27 03:20:26,3,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2079.67
+2026-11-27 03:20:26,3,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.55,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2066.23
+2026-11-27 03:20:26,3,0.55,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.55,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.55,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2049.56
+2026-11-27 03:20:26,3,0.55,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.55,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.55,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.55,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.55,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2066.21
+2026-11-27 03:20:26,3,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,False,False,False,2066.21
+2026-11-27 03:20:26,3,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2079.67
+2026-11-27 03:20:26,3,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.6,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2066.23
+2026-11-27 03:20:26,3,0.6,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.6,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.6,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2049.56
+2026-11-27 03:20:26,3,0.6,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.6,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.6,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.6,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.6,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2066.21
+2026-11-27 03:20:26,3,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,False,False,False,2066.21
+2026-11-27 03:20:26,3,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2079.67
+2026-11-27 03:20:26,3,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.65,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2066.23
+2026-11-27 03:20:26,3,0.65,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.65,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.65,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2049.56
+2026-11-27 03:20:26,3,0.65,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.65,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.65,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.65,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.65,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2066.21
+2026-11-27 03:20:26,3,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2066.21
+2026-11-27 03:20:26,3,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,False,False,False,2066.21
+2026-11-27 03:20:26,3,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2079.67
+2026-11-27 03:20:26,3,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.7,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2066.23
+2026-11-27 03:20:26,3,0.7,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.7,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.7,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2049.56
+2026-11-27 03:20:26,3,0.7,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.7,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.7,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.7,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.7,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2066.21
+2026-11-27 03:20:26,3,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,False,False,False,2066.21
+2026-11-27 03:20:26,3,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,False,False,False,2066.21
+2026-11-27 03:20:26,3,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2079.67
+2026-11-27 03:20:26,3,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2079.67
+2026-11-27 03:20:26,3,0.75,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2066.23
+2026-11-27 03:20:26,3,0.75,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.75,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2066.23
+2026-11-27 03:20:26,3,0.75,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2049.56
+2026-11-27 03:20:26,3,0.75,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.75,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2049.56
+2026-11-27 03:20:26,3,0.75,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.75,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.75,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2057.42
+2026-11-27 03:20:26,3,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2057.78
+2026-11-27 03:20:26,3,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2057.78
+2026-11-27 03:20:26,5,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2036.02
+2026-11-27 03:20:26,5,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,4,DOC003,0.478424,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.4,TC01,How many annual leave days do employees receive?,supported,DOC001,5,DOC005,0.47102,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2035.86
+2026-11-27 03:20:26,5,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,True,False,True,2035.86
+2026-11-27 03:20:26,5,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,4,DOC006,0.167096,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.4,TC02,What is the sick leave entitlement?,supported,DOC002,5,DOC003,0.136553,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.4,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2043.97
+2026-11-27 03:20:26,5,0.4,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.4,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.4,TC03,Can staff work from home during the week?,supported,DOC003,4,DOC001,0.340093,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.4,TC03,Can staff work from home during the week?,supported,DOC003,5,DOC005,0.294508,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.4,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2088.45
+2026-11-27 03:20:26,5,0.4,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,True,False,True,2088.45
+2026-11-27 03:20:26,5,0.4,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,True,False,True,2088.45
+2026-11-27 03:20:26,5,0.4,TC04,How long is maternity leave?,supported,DOC004,4,DOC003,0.322196,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.4,TC04,How long is maternity leave?,supported,DOC004,5,DOC005,0.12599,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.4,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.4,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.4,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.4,TC05,What is the employee insurance premium?,unsupported,,4,DOC008,0.265246,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.4,TC05,What is the employee insurance premium?,unsupported,,5,DOC006,0.237797,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,4,DOC008,0.248968,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.4,TC06,What is the guaranteed annual bonus?,unsupported,,5,DOC004,0.23971,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2036.02
+2026-11-27 03:20:26,5,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,4,DOC003,0.478424,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.5,TC01,How many annual leave days do employees receive?,supported,DOC001,5,DOC005,0.47102,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2035.86
+2026-11-27 03:20:26,5,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,4,DOC006,0.167096,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.5,TC02,What is the sick leave entitlement?,supported,DOC002,5,DOC003,0.136553,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.5,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2043.97
+2026-11-27 03:20:26,5,0.5,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.5,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.5,TC03,Can staff work from home during the week?,supported,DOC003,4,DOC001,0.340093,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.5,TC03,Can staff work from home during the week?,supported,DOC003,5,DOC005,0.294508,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.5,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2088.45
+2026-11-27 03:20:26,5,0.5,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.5,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.5,TC04,How long is maternity leave?,supported,DOC004,4,DOC003,0.322196,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.5,TC04,How long is maternity leave?,supported,DOC004,5,DOC005,0.12599,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.5,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.5,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.5,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.5,TC05,What is the employee insurance premium?,unsupported,,4,DOC008,0.265246,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.5,TC05,What is the employee insurance premium?,unsupported,,5,DOC006,0.237797,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,4,DOC008,0.248968,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.5,TC06,What is the guaranteed annual bonus?,unsupported,,5,DOC004,0.23971,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2036.02
+2026-11-27 03:20:26,5,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,4,DOC003,0.478424,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.55,TC01,How many annual leave days do employees receive?,supported,DOC001,5,DOC005,0.47102,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2035.86
+2026-11-27 03:20:26,5,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,4,DOC006,0.167096,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.55,TC02,What is the sick leave entitlement?,supported,DOC002,5,DOC003,0.136553,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.55,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2043.97
+2026-11-27 03:20:26,5,0.55,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.55,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.55,TC03,Can staff work from home during the week?,supported,DOC003,4,DOC001,0.340093,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.55,TC03,Can staff work from home during the week?,supported,DOC003,5,DOC005,0.294508,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.55,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2088.45
+2026-11-27 03:20:26,5,0.55,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.55,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.55,TC04,How long is maternity leave?,supported,DOC004,4,DOC003,0.322196,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.55,TC04,How long is maternity leave?,supported,DOC004,5,DOC005,0.12599,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.55,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.55,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.55,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.55,TC05,What is the employee insurance premium?,unsupported,,4,DOC008,0.265246,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.55,TC05,What is the employee insurance premium?,unsupported,,5,DOC006,0.237797,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,4,DOC008,0.248968,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.55,TC06,What is the guaranteed annual bonus?,unsupported,,5,DOC004,0.23971,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2036.02
+2026-11-27 03:20:26,5,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,4,DOC003,0.478424,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.6,TC01,How many annual leave days do employees receive?,supported,DOC001,5,DOC005,0.47102,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,True,True,False,2035.86
+2026-11-27 03:20:26,5,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,4,DOC006,0.167096,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.6,TC02,What is the sick leave entitlement?,supported,DOC002,5,DOC003,0.136553,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.6,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,True,True,False,2043.97
+2026-11-27 03:20:26,5,0.6,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.6,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.6,TC03,Can staff work from home during the week?,supported,DOC003,4,DOC001,0.340093,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.6,TC03,Can staff work from home during the week?,supported,DOC003,5,DOC005,0.294508,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.6,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2088.45
+2026-11-27 03:20:26,5,0.6,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.6,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.6,TC04,How long is maternity leave?,supported,DOC004,4,DOC003,0.322196,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.6,TC04,How long is maternity leave?,supported,DOC004,5,DOC005,0.12599,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.6,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.6,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.6,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.6,TC05,What is the employee insurance premium?,unsupported,,4,DOC008,0.265246,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.6,TC05,What is the employee insurance premium?,unsupported,,5,DOC006,0.237797,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,4,DOC008,0.248968,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.6,TC06,What is the guaranteed annual bonus?,unsupported,,5,DOC004,0.23971,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2036.02
+2026-11-27 03:20:26,5,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,4,DOC003,0.478424,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.65,TC01,How many annual leave days do employees receive?,supported,DOC001,5,DOC005,0.47102,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2035.86
+2026-11-27 03:20:26,5,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,4,DOC006,0.167096,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.65,TC02,What is the sick leave entitlement?,supported,DOC002,5,DOC003,0.136553,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.65,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2043.97
+2026-11-27 03:20:26,5,0.65,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.65,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.65,TC03,Can staff work from home during the week?,supported,DOC003,4,DOC001,0.340093,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.65,TC03,Can staff work from home during the week?,supported,DOC003,5,DOC005,0.294508,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.65,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2088.45
+2026-11-27 03:20:26,5,0.65,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.65,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.65,TC04,How long is maternity leave?,supported,DOC004,4,DOC003,0.322196,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.65,TC04,How long is maternity leave?,supported,DOC004,5,DOC005,0.12599,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.65,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.65,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.65,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.65,TC05,What is the employee insurance premium?,unsupported,,4,DOC008,0.265246,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.65,TC05,What is the employee insurance premium?,unsupported,,5,DOC006,0.237797,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,4,DOC008,0.248968,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.65,TC06,What is the guaranteed annual bonus?,unsupported,,5,DOC004,0.23971,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2036.02
+2026-11-27 03:20:26,5,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,True,False,True,2036.02
+2026-11-27 03:20:26,5,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,4,DOC003,0.478424,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.7,TC01,How many annual leave days do employees receive?,supported,DOC001,5,DOC005,0.47102,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2035.86
+2026-11-27 03:20:26,5,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,4,DOC006,0.167096,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.7,TC02,What is the sick leave entitlement?,supported,DOC002,5,DOC003,0.136553,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.7,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2043.97
+2026-11-27 03:20:26,5,0.7,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.7,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.7,TC03,Can staff work from home during the week?,supported,DOC003,4,DOC001,0.340093,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.7,TC03,Can staff work from home during the week?,supported,DOC003,5,DOC005,0.294508,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.7,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2088.45
+2026-11-27 03:20:26,5,0.7,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.7,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.7,TC04,How long is maternity leave?,supported,DOC004,4,DOC003,0.322196,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.7,TC04,How long is maternity leave?,supported,DOC004,5,DOC005,0.12599,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.7,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.7,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.7,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.7,TC05,What is the employee insurance premium?,unsupported,,4,DOC008,0.265246,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.7,TC05,What is the employee insurance premium?,unsupported,,5,DOC006,0.237797,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,4,DOC008,0.248968,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.7,TC06,What is the guaranteed annual bonus?,unsupported,,5,DOC004,0.23971,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,1,DOC001,0.81128,True,True,False,2036.02
+2026-11-27 03:20:26,5,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,2,DOC002,0.717386,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,3,DOC004,0.557121,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,4,DOC003,0.478424,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.75,TC01,How many annual leave days do employees receive?,supported,DOC001,5,DOC005,0.47102,False,False,False,2036.02
+2026-11-27 03:20:26,5,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,1,DOC002,0.646064,False,True,False,2035.86
+2026-11-27 03:20:26,5,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,2,DOC004,0.444731,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,3,DOC001,0.35692,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,4,DOC006,0.167096,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.75,TC02,What is the sick leave entitlement?,supported,DOC002,5,DOC003,0.136553,False,False,False,2035.86
+2026-11-27 03:20:26,5,0.75,TC03,Can staff work from home during the week?,supported,DOC003,1,DOC003,0.623887,False,True,False,2043.97
+2026-11-27 03:20:26,5,0.75,TC03,Can staff work from home during the week?,supported,DOC003,2,DOC002,0.350445,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.75,TC03,Can staff work from home during the week?,supported,DOC003,3,DOC004,0.347795,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.75,TC03,Can staff work from home during the week?,supported,DOC003,4,DOC001,0.340093,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.75,TC03,Can staff work from home during the week?,supported,DOC003,5,DOC005,0.294508,False,False,False,2043.97
+2026-11-27 03:20:26,5,0.75,TC04,How long is maternity leave?,supported,DOC004,1,DOC004,0.776453,True,True,False,2088.45
+2026-11-27 03:20:26,5,0.75,TC04,How long is maternity leave?,supported,DOC004,2,DOC001,0.438151,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.75,TC04,How long is maternity leave?,supported,DOC004,3,DOC002,0.410739,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.75,TC04,How long is maternity leave?,supported,DOC004,4,DOC003,0.322196,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.75,TC04,How long is maternity leave?,supported,DOC004,5,DOC005,0.12599,False,False,False,2088.45
+2026-11-27 03:20:26,5,0.75,TC05,What is the employee insurance premium?,unsupported,,1,DOC002,0.38069,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.75,TC05,What is the employee insurance premium?,unsupported,,2,DOC004,0.309523,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.75,TC05,What is the employee insurance premium?,unsupported,,3,DOC001,0.287411,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.75,TC05,What is the employee insurance premium?,unsupported,,4,DOC008,0.265246,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.75,TC05,What is the employee insurance premium?,unsupported,,5,DOC006,0.237797,False,False,False,2063.09
+2026-11-27 03:20:26,5,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,1,DOC001,0.31019,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,2,DOC005,0.283394,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,3,DOC002,0.282367,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,4,DOC008,0.248968,False,False,False,2078.8
+2026-11-27 03:20:26,5,0.75,TC06,What is the guaranteed annual bonus?,unsupported,,5,DOC004,0.23971,False,False,False,2078.8

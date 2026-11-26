@@ -1,6 +1,23 @@
+﻿# Python virtual environments
 venv/
+ragas-venv/
+.venv/
+
+# Python cache
 __pycache__/
-*.pyc
-.env
+*.py[cod]
 .pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# DeepEval local data
 .deepeval/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
