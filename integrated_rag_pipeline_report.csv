@@ -1,0 +1,20 @@
+Test Case,Question,Retrieved Context,Similarity Score,Similarity Threshold,Retrieval Status,Generated Answer,Matched Keywords,Keyword Coverage,Answer Status,Latency Seconds,Overall Status
+1,How much paid vacation do employees get?,"Annual Leave:
+    Employees receive 20 annual leave days per year.
+    Employees can carry forward up to 5 unused leave days.
+Sick Leave:
+    Employees receive 10 sick leave days per year.
+
+    Remote Work:
+    Employees can work remotely twice a week.",0.7102,0.69,FOUND,Employees receive 20 paid vacation days per year.,"20, paid vacation",1.0,PASS,6.56,PASS
+2,What is the sick leave entitlement?,"Sick Leave:
+    Employees receive 10 sick leave days per year.
+
+    Remote Work:
+    Employees can work remotely twice a week.",0.7239,0.69,FOUND,The sick leave entitlement is 10 sick leave days per year.,"10, sick leave",1.0,PASS,6.22,PASS
+3,How often can employees work from home?,"Sick Leave:
+    Employees receive 10 sick leave days per year.
+
+    Remote Work:
+    Employees can work remotely twice a week.",0.7274,0.69,FOUND,Employees can work remotely twice a week.,"twice, week",1.0,PASS,5.37,PASS
+4,What is the employee annual bonus?,,0.6865,0.69,NOT_FOUND,No relevant information found.,,1.0,PASS,2.1,PASS
