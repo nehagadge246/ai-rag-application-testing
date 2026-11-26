@@ -1,0 +1,33 @@
+Execution Date,Test ID,Query,Top K,Expected Document,Retrieved Documents,Precision@K,Recall@K,MRR,Hit,Top1 Hit,Embedding Latency (ms),Ranking Latency (ms),Status
+2026-11-27 00:19:58,TC01,How many annual leave days do employees receive?,1,DOC001,DOC001,1.0,1.0,1.0,1,1,28.311,1.448,PASS
+2026-11-27 00:19:58,TC02,What is the process for taking sick leave?,1,DOC002,DOC002,1.0,1.0,1.0,1,1,28.576,0.885,PASS
+2026-11-27 00:19:58,TC03,Can employees work remotely?,1,DOC003,DOC003,1.0,1.0,1.0,1,1,27.355,0.881,PASS
+2026-11-27 00:19:58,TC04,What are the parental leave requirements?,1,DOC004,DOC004,1.0,1.0,1.0,1,1,27.214,0.812,PASS
+2026-11-27 00:19:58,TC05,Which public holidays does the company observe?,1,DOC005,DOC005,1.0,1.0,1.0,1,1,27.073,1.432,PASS
+2026-11-27 00:19:58,TC06,What are the company password and security rules?,1,DOC006,DOC006,1.0,1.0,1.0,1,1,27.669,1.4,PASS
+2026-11-27 00:19:58,TC07,How can employees claim business travel expenses?,1,DOC007,DOC007,1.0,1.0,1.0,1,1,27.712,0.884,PASS
+2026-11-27 00:19:58,TC08,How are employee performance reviews conducted?,1,DOC008,DOC008,1.0,1.0,1.0,1,1,28.161,0.814,PASS
+2026-11-27 00:19:58,TC01,How many annual leave days do employees receive?,2,DOC001,"DOC001, DOC005",0.5,1.0,1.0,1,1,28.945,1.424,PASS
+2026-11-27 00:19:58,TC02,What is the process for taking sick leave?,2,DOC002,"DOC002, DOC004",0.5,1.0,1.0,1,1,30.012,1.067,PASS
+2026-11-27 00:19:58,TC03,Can employees work remotely?,2,DOC003,"DOC003, DOC002",0.5,1.0,1.0,1,1,26.474,0.825,PASS
+2026-11-27 00:19:58,TC04,What are the parental leave requirements?,2,DOC004,"DOC004, DOC001",0.5,1.0,1.0,1,1,26.886,0.889,PASS
+2026-11-27 00:19:58,TC05,Which public holidays does the company observe?,2,DOC005,"DOC005, DOC002",0.5,1.0,1.0,1,1,28.476,0.876,PASS
+2026-11-27 00:19:58,TC06,What are the company password and security rules?,2,DOC006,"DOC006, DOC003",0.5,1.0,1.0,1,1,29.088,1.559,PASS
+2026-11-27 00:19:58,TC07,How can employees claim business travel expenses?,2,DOC007,"DOC007, DOC002",0.5,1.0,1.0,1,1,28.118,1.382,PASS
+2026-11-27 00:19:58,TC08,How are employee performance reviews conducted?,2,DOC008,"DOC008, DOC003",0.5,1.0,1.0,1,1,28.428,1.404,PASS
+2026-11-27 00:19:58,TC01,How many annual leave days do employees receive?,3,DOC001,"DOC001, DOC005, DOC002",0.3333,1.0,1.0,1,1,28.399,0.85,PASS
+2026-11-27 00:19:58,TC02,What is the process for taking sick leave?,3,DOC002,"DOC002, DOC004, DOC001",0.3333,1.0,1.0,1,1,31.319,0.866,PASS
+2026-11-27 00:19:58,TC03,Can employees work remotely?,3,DOC003,"DOC003, DOC002, DOC004",0.3333,1.0,1.0,1,1,29.07,0.822,PASS
+2026-11-27 00:19:58,TC04,What are the parental leave requirements?,3,DOC004,"DOC004, DOC001, DOC002",0.3333,1.0,1.0,1,1,26.078,1.456,PASS
+2026-11-27 00:19:58,TC05,Which public holidays does the company observe?,3,DOC005,"DOC005, DOC002, DOC003",0.3333,1.0,1.0,1,1,29.132,1.41,PASS
+2026-11-27 00:19:58,TC06,What are the company password and security rules?,3,DOC006,"DOC006, DOC003, DOC007",0.3333,1.0,1.0,1,1,30.716,1.513,PASS
+2026-11-27 00:19:58,TC07,How can employees claim business travel expenses?,3,DOC007,"DOC007, DOC002, DOC003",0.3333,1.0,1.0,1,1,34.413,1.52,PASS
+2026-11-27 00:19:58,TC08,How are employee performance reviews conducted?,3,DOC008,"DOC008, DOC003, DOC007",0.3333,1.0,1.0,1,1,26.136,0.895,PASS
+2026-11-27 00:19:58,TC01,How many annual leave days do employees receive?,5,DOC001,"DOC001, DOC005, DOC002, DOC004, DOC007",0.2,1.0,1.0,1,1,28.899,0.914,PASS
+2026-11-27 00:19:58,TC02,What is the process for taking sick leave?,5,DOC002,"DOC002, DOC004, DOC001, DOC005, DOC003",0.2,1.0,1.0,1,1,29.792,0.887,PASS
+2026-11-27 00:19:58,TC03,Can employees work remotely?,5,DOC003,"DOC003, DOC002, DOC004, DOC006, DOC005",0.2,1.0,1.0,1,1,26.382,1.529,PASS
+2026-11-27 00:19:58,TC04,What are the parental leave requirements?,5,DOC004,"DOC004, DOC001, DOC002, DOC003, DOC007",0.2,1.0,1.0,1,1,26.778,1.686,PASS
+2026-11-27 00:19:58,TC05,Which public holidays does the company observe?,5,DOC005,"DOC005, DOC002, DOC003, DOC001, DOC008",0.2,1.0,1.0,1,1,26.565,0.84,PASS
+2026-11-27 00:19:58,TC06,What are the company password and security rules?,5,DOC006,"DOC006, DOC003, DOC007, DOC005, DOC002",0.2,1.0,1.0,1,1,29.526,1.466,PASS
+2026-11-27 00:19:58,TC07,How can employees claim business travel expenses?,5,DOC007,"DOC007, DOC002, DOC003, DOC005, DOC001",0.2,1.0,1.0,1,1,27.713,1.539,PASS
+2026-11-27 00:19:58,TC08,How are employee performance reviews conducted?,5,DOC008,"DOC008, DOC003, DOC007, DOC005, DOC001",0.2,1.0,1.0,1,1,27.867,0.849,PASS
