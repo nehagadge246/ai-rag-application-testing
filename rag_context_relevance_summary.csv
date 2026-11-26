@@ -1,0 +1,2 @@
+﻿Execution Date,Embedding Model,Total Documents,Total Test Cases,Passed,Failed,Review,Supported Queries,Correct Top-1 Retrievals,Top-1 Accuracy (%),Retrieval Checks Passed,Relevance Checks Passed,Average Retrieval Time (sec),Top-K,Relevance Threshold
+2026-11-26 22:49:07,nomic-embed-text:latest,8,10,9,0,1,8,8,100.0,9,9,2.075,3,0.55
