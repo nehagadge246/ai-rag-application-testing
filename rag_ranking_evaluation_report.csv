@@ -1,0 +1,11 @@
+﻿Scenario,Question,Retrieved IDs,Retrieved Topics,Relevance Scores,DCG@K,NDCG@K,Hit Rate@K,Retrieval Latency (seconds),Status
+Annual Leave,How many annual leave days do employees receive?,"DOC001, DOC002, DOC004","annual leave, sick leave, parental leave","3, 1, 0",7.6309,1.0,1,2.07,PASS
+Sick Leave,How many paid sick days are available?,"DOC002, DOC001, DOC005","sick leave, annual leave, public holidays","3, 1, 0",7.6309,1.0,1,2.094,PASS
+Remote Work,How many days can employees work from home?,"DOC003, DOC001, DOC002","remote work, annual leave, sick leave","3, 0, 0",7.0,1.0,1,2.1,PASS
+Parental Leave,How long is parental leave?,"DOC004, DOC001","parental leave, annual leave","3, 1",7.6309,1.0,1,2.101,PASS
+Public Holidays,How many company holidays are observed?,"DOC005, DOC001, DOC002","public holidays, annual leave, sick leave","3, 0, 0",7.0,1.0,1,2.09,PASS
+IT Security,What security method is required to access company systems?,DOC006,IT security,3,7.0,1.0,1,2.072,PASS
+Travel Reimbursement,How can employees claim business travel expenses?,"DOC007, DOC006, DOC003","travel reimbursement, IT security, remote work","3, 1, 0",7.6309,1.0,1,2.093,PASS
+Performance Review,How frequently are employee performance reviews conducted?,DOC008,performance review,3,7.0,1.0,1,2.081,PASS
+Unsupported Insurance,Which health insurance company does the organization use?,None,None,None,0.0,N/A,N/A,2.087,PASS
+Unrelated Stock Price,What is the current price of a technology company stock?,None,None,None,0.0,N/A,N/A,2.098,PASS

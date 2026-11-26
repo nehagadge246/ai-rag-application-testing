@@ -1,0 +1,15 @@
+﻿Metric,Value
+Execution Date,2026-11-26 23:04:52
+Total Test Cases,10
+Passed,10
+Failed,0
+Review,0
+Pass Rate (%),100.0
+Average DCG@K (supported queries),7.3155
+Average NDCG@K (supported queries),1.0
+Average Hit Rate@K (supported queries),1.0
+Average Retrieval Latency (seconds),2.089
+Top K,3
+Similarity Threshold,0.55
+Documents Indexed,8
+Embedding Dimensions,768
