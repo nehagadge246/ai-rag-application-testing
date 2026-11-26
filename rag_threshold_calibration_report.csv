@@ -1,0 +1,109 @@
+Question,Expected Supported,Best Document,Best Similarity,Threshold,Predicted Supported,Retrieval Correct,Classification Status
+How many annual leave days do employees receive?,1,DOC001,0.908,0.4,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.4,1,True,PASS
+How many days can employees work remotely?,1,DOC003,0.8858,0.4,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.4,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.4,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.4,1,True,PASS
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.4,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.4,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.4,1,True,FAIL
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.4,1,True,FAIL
+What is the current gold stock market price?,0,DOC005,0.3571,0.4,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.4,1,True,FAIL
+How many annual leave days do employees receive?,1,DOC001,0.908,0.5,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.5,1,True,PASS
+How many days can employees work remotely?,1,DOC003,0.8858,0.5,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.5,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.5,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.5,1,True,PASS
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.5,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.5,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.5,1,True,FAIL
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.5,1,True,FAIL
+What is the current gold stock market price?,0,DOC005,0.3571,0.5,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.5,0,True,PASS
+How many annual leave days do employees receive?,1,DOC001,0.908,0.55,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.55,1,True,PASS
+How many days can employees work remotely?,1,DOC003,0.8858,0.55,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.55,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.55,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.55,1,True,PASS
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.55,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.55,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.55,1,True,FAIL
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.55,1,True,FAIL
+What is the current gold stock market price?,0,DOC005,0.3571,0.55,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.55,0,True,PASS
+How many annual leave days do employees receive?,1,DOC001,0.908,0.6,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.6,1,True,PASS
+How many days can employees work remotely?,1,DOC003,0.8858,0.6,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.6,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.6,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.6,1,True,PASS
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.6,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.6,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.6,0,True,PASS
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.6,1,True,FAIL
+What is the current gold stock market price?,0,DOC005,0.3571,0.6,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.6,0,True,PASS
+How many annual leave days do employees receive?,1,DOC001,0.908,0.65,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.65,1,True,PASS
+How many days can employees work remotely?,1,DOC003,0.8858,0.65,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.65,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.65,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.65,1,True,PASS
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.65,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.65,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.65,0,True,PASS
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.65,1,True,FAIL
+What is the current gold stock market price?,0,DOC005,0.3571,0.65,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.65,0,True,PASS
+How many annual leave days do employees receive?,1,DOC001,0.908,0.68,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.68,1,True,PASS
+How many days can employees work remotely?,1,DOC003,0.8858,0.68,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.68,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.68,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.68,1,True,PASS
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.68,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.68,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.68,0,True,PASS
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.68,0,True,PASS
+What is the current gold stock market price?,0,DOC005,0.3571,0.68,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.68,0,True,PASS
+How many annual leave days do employees receive?,1,DOC001,0.908,0.7,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.7,1,True,PASS
+How many days can employees work remotely?,1,DOC003,0.8858,0.7,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.7,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.7,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.7,0,True,FAIL
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.7,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.7,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.7,0,True,PASS
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.7,0,True,PASS
+What is the current gold stock market price?,0,DOC005,0.3571,0.7,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.7,0,True,PASS
+How many annual leave days do employees receive?,1,DOC001,0.908,0.75,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.75,1,True,PASS
+How many days can employees work remotely?,1,DOC003,0.8858,0.75,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.75,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.75,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.75,0,True,FAIL
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.75,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.75,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.75,0,True,PASS
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.75,0,True,PASS
+What is the current gold stock market price?,0,DOC005,0.3571,0.75,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.75,0,True,PASS
+How many annual leave days do employees receive?,1,DOC001,0.908,0.8,1,True,PASS
+What is the yearly sick leave entitlement?,1,DOC002,0.7632,0.8,0,True,FAIL
+How many days can employees work remotely?,1,DOC003,0.8858,0.8,1,True,PASS
+How long is parental leave?,1,DOC004,0.8187,0.8,1,True,PASS
+How many public holidays are provided?,1,DOC005,0.815,0.8,1,True,PASS
+What security authentication is required?,1,DOC006,0.6841,0.8,0,True,FAIL
+Can employees claim business travel expenses?,1,DOC007,0.9485,0.8,1,True,PASS
+How often are performance reviews conducted?,1,DOC008,0.8145,0.8,1,True,PASS
+What is the employee health insurance provider?,0,DOC007,0.5652,0.8,0,True,PASS
+What is the company's annual employee bonus amount?,0,DOC001,0.6566,0.8,0,True,PASS
+What is the current gold stock market price?,0,DOC005,0.3571,0.8,0,True,PASS
+What is the company's monthly salary structure?,0,DOC001,0.488,0.8,0,True,PASS
