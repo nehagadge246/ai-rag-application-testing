@@ -1,0 +1,9 @@
+﻿Test ID,Scenario,Question,Expected Answer,Generated Answer,Response Time (sec),Accuracy Status,Hallucination Check,Evaluation Details,Overall Status,Error
+1,Correct annual leave answer,How many annual leave days do employees receive?,15 days,Employees receive 15 days of annual leave per year.,3.663,PASS,PASS,Expected information found in answer,PASS,
+2,Correct sick leave answer,How many sick leave days are provided?,10 days,10 days,2.667,PASS,PASS,Expected information found in answer,PASS,
+3,Remote work policy,How many days can employees work remotely per week?,2 days per week,2 days per week,2.749,PASS,PASS,Expected information found in answer,PASS,
+4,Parental leave accuracy,How many weeks of parental leave are available?,12 weeks,12 weeks,2.75,PASS,PASS,Expected information found in answer,PASS,
+5,Public holiday accuracy,How many public holidays are observed each year?,10 public holidays,10,2.584,PASS,PASS,Expected information found in answer,PASS,
+6,Unsupported salary question,What is the annual salary of an employee?,Not specified in the provided context,This information is not specified in the provided context.,3.428,PASS,PASS,Unsupported question handled without a factual claim,PASS,
+7,Unsupported bonus question,How much annual performance bonus does an employee receive?,Not specified in the provided context,This information is not specified in the provided context.,3.455,PASS,PASS,Unsupported question handled without a factual claim,PASS,
+8,Unsupported insurance question,Which health insurance company does the organization use?,Not specified in the provided context,This information is not specified in the provided context.,3.46,PASS,PASS,Unsupported question handled without a factual claim,PASS,
