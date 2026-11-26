@@ -1,0 +1,5 @@
+Metric,Score,Threshold,Status
+Accuracy,0.6667,0.8,FAIL
+Precision,0.6667,0.7,FAIL
+Recall,0.6667,0.7,FAIL
+F1 Score,0.6667,0.7,FAIL

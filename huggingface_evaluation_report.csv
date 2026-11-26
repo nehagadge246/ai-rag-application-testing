@@ -1,0 +1,7 @@
+Test Case,Expected Label,Predicted Label,Result
+1,1,1,PASS
+2,0,0,PASS
+3,1,1,PASS
+4,1,0,FAIL
+5,0,0,PASS
+6,0,1,FAIL

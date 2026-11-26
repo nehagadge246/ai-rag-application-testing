@@ -1,0 +1,4 @@
+Test Case,Question,Generated Answer,Matched Keywords,Missing Keywords,Keyword Coverage,Latency Seconds,Status
+1,How many annual leave days do employees receive?,Employees receive 20 annual leave days per year.,"20, annual leave",,1.0,9.8,PASS
+2,How many unused leave days can employees carry forward?,Employees can carry forward up to 5 unused leave days.,"5, carry forward",,1.0,3.79,PASS
+3,What is the annual leave entitlement?,The annual leave entitlement is 20 days per year.,"20, annual leave",,1.0,3.78,PASS
