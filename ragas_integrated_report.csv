@@ -1,0 +1,3 @@
+Scenario,Faithfulness Score,Faithfulness Status,Answer Relevancy Score,Answer Relevancy Status,Context Precision Score,Context Precision Status,Context Recall Score,Context Recall Status,Factual Correctness Score,Factual Correctness Status,Context Relevance Score,Context Relevance Status,Average Score,Passed Metrics,Failed Metrics,Metric Errors,Scenario Result,Execution Time
+Positive,1.0,PASS,0.9842440810240127,PASS,0.9999999999,PASS,0.5,PASS,1.0,PASS,1.0,PASS,0.9140406801540021,6,0,0,PASS,2026-11-26 19:22:22
+Negative,0.0,PASS,0.9842440810240127,PASS,0.0,PASS,1.0,FAIL,0.0,PASS,0.0,PASS,0.33070734683733544,5,1,0,FAIL,2026-11-26 19:22:22
