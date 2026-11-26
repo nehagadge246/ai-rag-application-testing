@@ -1,0 +1,15 @@
+﻿Metric,Value
+Execution Date,2026-11-26 22:56:41
+Total Test Cases,10
+Passed,10
+Failed,0
+Review,0
+Pass Rate (%),100.0
+Average Precision@K (supported queries),0.5208
+Average Recall@K (supported queries),1.0
+Mean Reciprocal Rank (supported queries),1.0
+Average Retrieval Latency (seconds),2.074
+Top K,3
+Similarity Threshold,0.55
+Documents Indexed,8
+Embedding Dimensions,768
