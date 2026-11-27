@@ -1,0 +1,4 @@
+﻿Method,Supported Test Cases,Top1 Accuracy,MRR,Precision@3,Recall@3,Average Latency Ms,Embedding Weight,LLM Weight
+Baseline Embedding,4,1.0,1.0,0.3333,1.0,2072.22,,
+Evidence-Based LLM,4,1.0,1.0,0.3333,1.0,18877.32,,
+Hybrid Ranking,4,1.0,1.0,0.3333,1.0,18877.32,0.6,0.4

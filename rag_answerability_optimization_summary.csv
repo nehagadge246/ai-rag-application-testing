@@ -1,0 +1,2 @@
+﻿Experiment,Test Cases,Similarity Threshold,LLM Score Threshold,True Positives,True Negatives,False Positives,False Negatives,Accuracy,Precision,Recall,F1 Score,Rejection Accuracy
+Individual Similarity + Verified Evidence Gate,6,0.55,55,4,2,0,0,1.0,1.0,1.0,1.0,1.0

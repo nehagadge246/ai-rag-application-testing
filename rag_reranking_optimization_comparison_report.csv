@@ -1,0 +1,91 @@
+﻿Execution Date,Test Case ID,Query,Supported,Expected Document,Method,Rank,Retrieved Document,Similarity Score,LLM Score,Verified LLM Score,Evidence Valid,Evidence,Hybrid Score,Expected Rank,Top1 Correct,MRR,Precision@3,Recall@3,Retrieval Latency Ms,Reranking Latency Ms,Method Latency Ms,Reranking Status
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Baseline Embedding,1,DOC001,0.81128,,,,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,2069.33,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Baseline Embedding,2,DOC002,0.71739,,,,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,2069.33,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Baseline Embedding,3,DOC005,0.58555,,,,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,2069.33,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Baseline Embedding,4,DOC004,0.55712,,,,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,2069.33,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Baseline Embedding,5,DOC003,0.48033,,,,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,2069.33,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Evidence-Based LLM,1,DOC001,0.81128,95.0,95.0,True,Employees receive 15 annual leave days per year. Annual leave requires manager approval.,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Evidence-Based LLM,2,DOC002,0.71739,0,0,False,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Evidence-Based LLM,3,DOC005,0.58555,0,0,False,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Evidence-Based LLM,4,DOC004,0.55712,0,0,False,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Evidence-Based LLM,5,DOC003,0.48033,0,0,False,,,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Hybrid Ranking,1,DOC001,0.81128,95.0,95.0,True,Employees receive 15 annual leave days per year. Annual leave requires manager approval.,86.677,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Hybrid Ranking,2,DOC002,0.71739,0,0,False,,43.043,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Hybrid Ranking,3,DOC005,0.58555,0,0,False,,35.133,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Hybrid Ranking,4,DOC004,0.55712,0,0,False,,33.427,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:39:56,TC01,How many annual leave days do employees receive?,True,DOC001,Hybrid Ranking,5,DOC003,0.48033,0,0,False,,28.82,1,1,1.0,0.3333333333333333,1,2069.33,22330.77,24400.1,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Baseline Embedding,1,DOC002,0.64606,,,,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,2100.06,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Baseline Embedding,2,DOC004,0.44473,,,,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,2100.06,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Baseline Embedding,3,DOC001,0.35692,,,,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,2100.06,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Baseline Embedding,4,DOC005,0.23862,,,,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,2100.06,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Baseline Embedding,5,DOC007,0.18939,,,,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,2100.06,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Evidence-Based LLM,1,DOC002,0.64606,95.0,95.0,True,Employees receive 10 sick leave days per year.,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Evidence-Based LLM,2,DOC004,0.44473,0,0,False,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Evidence-Based LLM,3,DOC001,0.35692,0,0,False,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Evidence-Based LLM,4,DOC005,0.23862,0,0,False,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Evidence-Based LLM,5,DOC007,0.18939,0,0,False,,,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Hybrid Ranking,1,DOC002,0.64606,95.0,95.0,True,Employees receive 10 sick leave days per year.,76.764,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Hybrid Ranking,2,DOC004,0.44473,0,0,False,,26.684,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Hybrid Ranking,3,DOC001,0.35692,0,0,False,,21.415,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Hybrid Ranking,4,DOC005,0.23862,0,0,False,,14.317,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:14,TC02,What is the sick leave entitlement?,True,DOC002,Hybrid Ranking,5,DOC007,0.18939,0,0,False,,11.363,1,1,1.0,0.3333333333333333,1,2100.06,15032.88,17132.94,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Baseline Embedding,1,DOC003,0.66092,,,,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,2072.78,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Baseline Embedding,2,DOC001,0.49933,,,,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,2072.78,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Baseline Embedding,3,DOC002,0.46413,,,,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,2072.78,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Baseline Embedding,4,DOC005,0.45128,,,,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,2072.78,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Baseline Embedding,5,DOC004,0.39412,,,,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,2072.78,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Evidence-Based LLM,1,DOC003,0.66092,95.0,95.0,True,Employees can work remotely up to two days per week with manager approval.,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Evidence-Based LLM,2,DOC001,0.49933,0,0,False,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Evidence-Based LLM,3,DOC002,0.46413,0,0,False,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Evidence-Based LLM,4,DOC005,0.45128,0,0,False,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Evidence-Based LLM,5,DOC004,0.39412,0,0,False,,,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Hybrid Ranking,1,DOC003,0.66092,95.0,95.0,True,Employees can work remotely up to two days per week with manager approval.,77.655,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Hybrid Ranking,2,DOC001,0.49933,0,0,False,,29.96,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Hybrid Ranking,3,DOC002,0.46413,0,0,False,,27.848,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Hybrid Ranking,4,DOC005,0.45128,0,0,False,,27.077,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:31,TC03,How many days can employees work from home?,True,DOC003,Hybrid Ranking,5,DOC004,0.39412,0,0,False,,23.647,1,1,1.0,0.3333333333333333,1,2072.78,15761.49,17834.27,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Baseline Embedding,1,DOC004,0.77645,,,,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,2064.84,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Baseline Embedding,2,DOC001,0.43815,,,,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,2064.84,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Baseline Embedding,3,DOC002,0.41074,,,,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,2064.84,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Baseline Embedding,4,DOC003,0.32104,,,,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,2064.84,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Baseline Embedding,5,DOC005,0.17001,,,,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,2064.84,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Evidence-Based LLM,1,DOC004,0.77645,90.0,90.0,True,Eligible employees receive 26 weeks of maternity leave.,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Evidence-Based LLM,2,DOC001,0.43815,0,0,False,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Evidence-Based LLM,3,DOC002,0.41074,0,0,False,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Evidence-Based LLM,4,DOC003,0.32104,0,0,False,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Evidence-Based LLM,5,DOC005,0.17001,0,0,False,,,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Hybrid Ranking,1,DOC004,0.77645,90.0,90.0,True,Eligible employees receive 26 weeks of maternity leave.,82.587,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Hybrid Ranking,2,DOC001,0.43815,0,0,False,,26.289,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Hybrid Ranking,3,DOC002,0.41074,0,0,False,,24.644,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Hybrid Ranking,4,DOC003,0.32104,0,0,False,,19.263,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:40:49,TC04,How long is maternity leave?,True,DOC004,Hybrid Ranking,5,DOC005,0.17001,0,0,False,,10.201,1,1,1.0,0.3333333333333333,1,2064.84,15752.55,17817.39,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Baseline Embedding,1,DOC002,0.38069,,,,,,,,,,,2055.36,15897.18,2055.36,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Baseline Embedding,2,DOC004,0.30952,,,,,,,,,,,2055.36,15897.18,2055.36,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Baseline Embedding,3,DOC001,0.28741,,,,,,,,,,,2055.36,15897.18,2055.36,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Baseline Embedding,4,DOC008,0.25782,,,,,,,,,,,2055.36,15897.18,2055.36,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Baseline Embedding,5,DOC003,0.25464,,,,,,,,,,,2055.36,15897.18,2055.36,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Evidence-Based LLM,1,DOC001,0.28741,95.0,95.0,True,Employees receive 15 annual leave days per year. Annual leave requires manager approval.,,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Evidence-Based LLM,2,DOC002,0.38069,0,0,False,,,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Evidence-Based LLM,3,DOC004,0.30952,0,0,False,,,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Evidence-Based LLM,4,DOC008,0.25782,0,0,False,,,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Evidence-Based LLM,5,DOC003,0.25464,0,0,False,,,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Hybrid Ranking,1,DOC001,0.28741,95.0,95.0,True,Employees receive 15 annual leave days per year. Annual leave requires manager approval.,55.245,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Hybrid Ranking,2,DOC002,0.38069,0,0,False,,22.841,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Hybrid Ranking,3,DOC004,0.30952,0,0,False,,18.571,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Hybrid Ranking,4,DOC008,0.25782,0,0,False,,15.469,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:07,TC05,What is the employee insurance premium?,False,,Hybrid Ranking,5,DOC003,0.25464,0,0,False,,15.278,,,,,,2055.36,15897.18,17952.55,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Baseline Embedding,1,DOC005,0.41791,,,,,,,,,,,2070.96,16055.7,2070.96,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Baseline Embedding,2,DOC002,0.36966,,,,,,,,,,,2070.96,16055.7,2070.96,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Baseline Embedding,3,DOC008,0.35467,,,,,,,,,,,2070.96,16055.7,2070.96,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Baseline Embedding,4,DOC001,0.3463,,,,,,,,,,,2070.96,16055.7,2070.96,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Baseline Embedding,5,DOC006,0.27625,,,,,,,,,,,2070.96,16055.7,2070.96,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Evidence-Based LLM,1,DOC001,0.3463,95.0,95.0,True,Employees receive 15 annual leave days per year. Annual leave requires manager approval.,,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Evidence-Based LLM,2,DOC005,0.41791,0,0,False,,,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Evidence-Based LLM,3,DOC002,0.36966,0,0,False,,,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Evidence-Based LLM,4,DOC008,0.35467,0,0,False,,,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Evidence-Based LLM,5,DOC006,0.27625,0,0,False,,,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Hybrid Ranking,1,DOC001,0.3463,95.0,95.0,True,Employees receive 15 annual leave days per year. Annual leave requires manager approval.,58.778,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Hybrid Ranking,2,DOC005,0.41791,0,0,False,,25.074,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Hybrid Ranking,3,DOC002,0.36966,0,0,False,,22.18,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Hybrid Ranking,4,DOC008,0.35467,0,0,False,,21.28,,,,,,2070.96,16055.7,18126.67,Success
+2026-11-27T11:41:25,TC06,Are employees guaranteed an annual bonus?,False,,Hybrid Ranking,5,DOC006,0.27625,0,0,False,,16.575,,,,,,2070.96,16055.7,18126.67,Success
